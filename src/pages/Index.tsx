@@ -110,7 +110,7 @@ export default function Index() {
                   Küldetésünk a közösségépítés
                 </h2>
                 <p className="text-body mb-6">
-                  Az Élő Reménység csapata évek óta elkötelezetten dolgozik azon, 
+                  A Találkozások Konferencia csapata évek óta elkötelezetten dolgozik azon, 
                   hogy olyan alkalmakat hozzon létre, ahol fiatalok és felnőttek egyaránt 
                   megtapasztalhatják a hit erejét és a közösség melegét.
                 </p>
