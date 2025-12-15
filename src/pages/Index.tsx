@@ -4,8 +4,8 @@ import { Calendar, Users, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
-import heroImage from "@/assets/hero-community.jpg";
-import eventImage from "@/assets/event-worship.jpg";
+import heroImage from "@/assets/hero_image.jpg";
+import eventImage from "@/assets/event-picture.jpg";
 
 const features = [
   {
@@ -135,7 +135,7 @@ export default function Index() {
                   className="w-full h-[400px] lg:h-[500px] object-cover rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-lg">
-                  <div className="text-4xl font-serif font-bold">10+</div>
+                  <div className="text-4xl font-serif font-bold mb-2">3+</div>
                   <div className="text-sm opacity-90">Év tapasztalat</div>
                 </div>
               </div>
@@ -184,7 +184,7 @@ export default function Index() {
               Csatlakozz következő eseményünkhöz
             </h2>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto mb-8">
-              Ne maradj le a 2025-ös konferenciáinkról! Tekintsd meg közelgő 
+              Ne maradj le a 2026-ös konferenciáinkról! Tekintsd meg közelgő 
               eseményeinket és légy részese valami csodálatosnak.
             </p>
             <Button asChild size="xl" variant="secondary">

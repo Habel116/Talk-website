@@ -6,23 +6,23 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@eloremenseg.hu",
-    href: "mailto:info@eloremenseg.hu",
+    value: "talalkozasok.prem@gmail.com",
+    href: "mailto:talalkozasok.prem@gmail.com",
     description: "Írj nekünk bármilyen kérdéssel!",
   },
   {
     icon: Phone,
     label: "Telefon",
-    value: "+36 30 123 4567",
-    href: "tel:+36301234567",
+    value: "+36 20 980 0987",
+    href: "tel:+36209800987",
     description: "Hívj minket hétköznap 9-17 óra között.",
   },
   {
     icon: MapPin,
     label: "Helyszín",
-    value: "Budapest, Magyarország",
+    value: "Csetény, Magyarország",
     href: null,
-    description: "Irodánk a fővárosban található.",
+    description: "Csetényi Református Egyházközség",
   },
 ];
 
@@ -30,20 +30,14 @@ const socialLinks = [
   {
     icon: Facebook,
     label: "Facebook",
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/profile.php?id=61581449531192&locale=hu_HU",
     color: "hover:bg-[#1877F2]",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/talk_prem/?igsh=NW95aHdjMWNmczNz",
     color: "hover:bg-[#E4405F]",
-  },
-  {
-    icon: Youtube,
-    label: "YouTube",
-    href: "https://youtube.com",
-    color: "hover:bg-[#FF0000]",
   },
 ];
 

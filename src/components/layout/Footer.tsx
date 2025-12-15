@@ -10,9 +10,8 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://facebook.com", icon: Facebook, label: "Facebook" },
-  { href: "https://instagram.com", icon: Instagram, label: "Instagram" },
-  { href: "https://youtube.com", icon: Youtube, label: "YouTube" },
+  { href: "https://www.facebook.com/profile.php?id=61581449531192&locale=hu_HU", icon: Facebook, label: "Facebook" },
+  { href: "https://www.instagram.com/talk_prem/?igsh=NW95aHdjMWNmczNz", icon: Instagram, label: "Instagram" },
 ];
 
 export function Footer() {
@@ -67,25 +66,25 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 mt-0.5 text-primary" />
                 <a
-                  href="mailto:info@eloremenseg.hu"
+                  href="mailto:talalkozasok.prem@gmail.com"
                   className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                 >
-                  info@eloremenseg.hu
+                  talalkozasok.prem@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 mt-0.5 text-primary" />
                 <a
-                  href="tel:+36301234567"
+                  href="tel:+36209800987"
                   className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
                 >
-                  +36 30 123 4567
+                  +36 20 980 0987
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 text-primary" />
                 <span className="text-primary-foreground/70 text-sm">
-                  Budapest, Magyarország
+                  Csetény, Magyarország
                 </span>
               </li>
             </ul>
@@ -115,7 +114,7 @@ export function Footer() {
               © {new Date().getFullYear()} Találkozások Konferencia. Minden jog fenntartva.
             </p>
             <p className="text-primary-foreground/50 text-sm">
-              Készítve szeretettel és hittel
+              Készítve Krisztusi szeretettel
             </p>
           </div>
         </div>

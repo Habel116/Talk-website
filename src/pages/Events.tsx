@@ -2,91 +2,103 @@ import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Calendar, MapPin, Users, Clock, Quote } from "lucide-react";
-import eventWorship from "@/assets/event-worship.jpg";
-import heroCommunity from "@/assets/hero-community.jpg";
-
-const events2025 = [
+import talkkonf2025 from "@/assets/talk-konf-2025.jpg";
+import talkimaej2025 from "@/assets/talk-imaej-2025-2.jpg";
+import talkkonf2026 from "@/assets/talk-konf-2026.jpg";
+import talkimaej2026 from "@/assets/talk-imaej-2026.jpg";
+const events2026 = [
   {
     id: 1,
-    title: "Tavaszi Megujulas Konferencia",
-    date: "2025. marcius 21-23.",
-    location: "Budapest, Konferencia Kozpont",
-    description: "Harom nap a lelki megujulas jegyeben. Inspiralo eloadasok, dicsoites es kozosseg.",
-    image: eventWorship,
+    title: "Találkozások Konferencia",
+    date: "2026. március 21.",
+    location: "Pápa, Pápai Református Gimnázium",
+    description: "A nap célja a lelki feltöltődés. Inspiráló eloadások, dicsőités és közösség.",
+    image: talkkonf2026,
     program: [
-      "Pentek este: Nyito dicsoites es koszontes",
-      "Szombat delelott: Foeloadas es kiscsoportos beszelgetesek",
-      "Szombat delutan: Workshopok es szabadido",
-      "Vasarnap: Zaro istentisztelet es urvacsora",
+      "Nyitó dicsőités és köszöntés",
+      "Főelőadás és kiscsoportos beszélgetések",
+      "Workshopok és Talk caffé",
+      "Záró dicsőítés",
     ],
-    speakers: ["Kovacs Peter lelkipasztor", "Dr. Szabo Anna", "Toth Mate worship vezeto"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Ablonci Áron"],
   },
   {
     id: 2,
-    title: "Nyari Ifjusagi Tabor",
-    date: "2025. julius 14-19.",
-    location: "Balatonszarszo",
-    description: "Egy het fiataloknak a Balaton partjan. Sport, kozosseg, termeszet es hit.",
-    image: heroCommunity,
+    title: "Talk imaéjjel",
+    date: "Coming Soon",
+    location: "Pápa, Pápai Református Gimnázium",
+    description: "Egy fejethetetlen este, középpontban Isten és az ima.",
+    image: talkimaej2026,
     program: [
-      "Napi reggeli ahitat",
-      "Eloadasok es beszelgetesek",
-      "Sportprogramok es strandolas",
-      "Esti tabortuzek es dicsoites",
+      "Közös vacsora",
+      "Főelőadás és kiscsoportos beszélgetések",
+      "Éjszakai dicsőítés",
+      "Alvás!",
+      "Reggeli áhitat"
     ],
-    speakers: ["Kiss David ifjusagi vezeto", "Nemeth Julia", "Varga Adam"],
-  },
+    speakers: ["Hajdú Ferenc - dicsőítés vezető"],
+  }
 ];
 
-const events2024 = [
+const events2025 = [
   {
     id: 3,
-    title: "Oszi Konferencia 2024",
-    date: "2024. oktober 11-13.",
-    location: "Debrecen, Reformatus Kollegium",
-    description: "Uj utakon cimmel megrendezett konferenciank a valtozas es megujulas temajat jarta korul.",
-    image: heroCommunity,
+    title: "Talk imaéjjel - 2025",
+    date: "2025. Október 22.",
+    location: "Pápa, Pápai Református Gimnázium",
+    description: "-Közel nyolcvan kamasz gyűlt össze, hogy együtt énekeljen, játsszon, táncoljon és imádkozzon. Hogy együtt lélegezzen fel egészen a magasmennyig tárva ki szívét.-",
+    image: talkimaej2025,
     program: [
-      "Harom napos program eloadasokkal",
-      "Muhelymunkak es kiscsoportok",
-      "Kozos dicsoites es imaadsag",
+      "Közös vacsora",
+      "Főelőadás és kiscsoportos beszélgetések",
+      "Élő podcast",
+      "Egyéni elcsendesülés",
+      "Táncház",
+      "Éjszakai dicsőítés",
+      "Alvás!",
+      "Reggeli áhitat"
     ],
-    speakers: ["Dr. Fekete Laszlo", "Horvath Eszter", "Molnar Gabor"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Erlitz Anita - református lelkipásztor asszony"],
     testimonials: [
       {
-        quote: "Ez a konferencia teljesen megvaltoztatta a hozzaallasomat. Halas vagyok, hogy reszt vehettem!",
-        author: "Anna, 28 eves",
+        quote: "Ügyes volt a szervezés, gratulálok!!",
+        author: "András, 18 éves",
       },
       {
-        quote: "Csodalatos kozosseg, inspiralo eloadasok. Mar varom a kovetkezot!",
-        author: "Peter, 35 eves",
-      },
+        quote: "Felejthetetlen élmény marad számomra. Felüdülés volt ennyi emberrel Istent dicsőíteni!",
+        author: "Ábel, 18 éves",
+      }
     ],
   },
   {
     id: 4,
-    title: "Tavaszi Talalkozo 2024",
-    date: "2024. aprilis 5-7.",
-    location: "Pecs, Kulturalis Kozpont",
-    description: "A remenyseg uzenete ezzel a temaval gyultunk ossze az orszag kulonbozo pontjairol.",
-    image: eventWorship,
+    title: "Találkozások Konferencia - 2025",
+    date: "2025. április 5.",
+    location: "Pápa, Pápai Református Gimnázium",
+    description: "Kicsoda Isten? Hogyan kapcsolódik hozzám?",
+    image: talkkonf2025,
     program: [
-      "Pentek esti nyitany",
-      "Szombati eloadasok es workshopok",
-      "Vasarnapi halaado istentisztelet",
+      "Nyitó dicsőités és köszöntés",
+      "Főelőadás és kiscsoportos beszélgetések",
+      "Workshopok és Talk caffé",
+      "Záró dicsőítés"
     ],
-    speakers: ["Balogh Krisztian", "Dr. Veres Katalin", "Simon Laszlo"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Farkas Balázs - lelkipásztor"],
     testimonials: [
       {
-        quote: "Eletem egyik legjobb hetvegeje volt. Koszonet a szervezoknek!",
-        author: "Eszter, 42 eves",
+        quote: "Nagyon jól éreztem magam és remélem sok ilyen alkalmon vehetek meg részt",
+        author: "Anna, 15 éves",
+      },
+      {
+        quote: "Csodálatos közösség, inspiráló előadások. Már várom a következőt!",
+        author: "Peter, 17 éves",
       },
     ],
   },
 ];
 
 interface EventCardProps {
-  event: typeof events2025[0] & { testimonials?: { quote: string; author: string }[] };
+  event: typeof events2026[0] & { testimonials?: { quote: string; author: string }[] };
   isPast?: boolean;
 }
 
@@ -116,7 +128,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
           </div>
           {isPast && (
             <span className="absolute top-4 right-4 bg-muted text-muted-foreground px-3 py-1 rounded-full text-xs font-medium">
-              Lezarult
+              Lezárult
             </span>
           )}
         </div>
@@ -127,7 +139,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
           <div className="mb-6">
             <h4 className="flex items-center gap-2 font-medium text-foreground mb-3">
               <Clock className="w-4 h-4 text-primary" />
-              Program
+              Programok
             </h4>
             <ul className="space-y-2">
               {event.program.map((item, idx) => (
@@ -142,7 +154,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
           <div className="mb-6">
             <h4 className="flex items-center gap-2 font-medium text-foreground mb-3">
               <Users className="w-4 h-4 text-primary" />
-              Eloadok
+              Előadók
             </h4>
             <div className="flex flex-wrap gap-2">
               {event.speakers.map((speaker, idx) => (
@@ -160,7 +172,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
             <div className="border-t border-border pt-6">
               <h4 className="flex items-center gap-2 font-medium text-foreground mb-4">
                 <Quote className="w-4 h-4 text-primary" />
-                Visszajelzesek
+                Visszajelzések
               </h4>
               <div className="space-y-4">
                 {event.testimonials.map((testimonial, idx) => (
@@ -185,42 +197,42 @@ function EventCard({ event, isPast = false }: EventCardProps) {
 export default function Events() {
   return (
     <Layout>
-      <section className="pt-32 pb-16 bg-gradient-to-b from-secondary to-background">
+      <section className="pt-32 pb-10 bg-primary">
         <div className="container-custom">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
-              <h1 className="heading-display text-foreground mb-6">Esemenyeink</h1>
-              <p className="text-body">
-                Tekintsd at kozelgo es korabbi konferenciainkat, talalkozoinkat. 
-                Minden esemenyunk a kozosseg es a lelki novekedes jegyeben zajlik.
+              <h1 className="heading-display text-foreground mb-6 text-cream">Eseményeink</h1>
+              <p className="text-body italic text-cream">
+                Tekintsd át közelgő és korábbi konferenciáinkat, talalkozóinkat. 
+                Minden eseményunk a közösség és a lelki növekedés jegyében zajlik.
               </p>
             </div>
           </ScrollReveal>
         </div>
       </section>
 
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-secondary">
         <div className="container-custom">
           <SectionHeading
-            title="2025-os esemenyek"
-            subtitle="Kozelgo konferenciank es talalkozoink"
+            title="2026-os események"
+            subtitle="Közelgő konferenciáink es talalkozóink"
           />
           <div className="grid lg:grid-cols-2 gap-8">
-            {events2025.map((event) => (
+            {events2026.map((event) => (
               <EventCard key={event.id} event={event} />
             ))}
           </div>
         </div>
       </section>
 
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-background">
         <div className="container-custom">
           <SectionHeading
-            title="2024-es esemenyek"
-            subtitle="Korabbi esemenyeink archivuma"
+            title="2025-ös események"
+            subtitle="Korábbi eseményeink archívuma"
           />
           <div className="grid lg:grid-cols-2 gap-8">
-            {events2024.map((event) => (
+            {events2025.map((event) => (
               <EventCard key={event.id} event={event} isPast />
             ))}
           </div>
