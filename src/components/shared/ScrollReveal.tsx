@@ -37,7 +37,7 @@ export function ScrollReveal({
         y: isInView ? 0 : directions[direction].y,
       }}
       transition={{
-        duration: 0.6,
+        duration: 0.3,
         delay: delay,
         ease: [0.25, 0.1, 0.25, 1],
       }}

@@ -60,7 +60,7 @@ export default function Mission() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.2}>
+            <ScrollReveal delay={0.1}>
               <div className="prose prose-lg max-w-none">
                 <p className="text-body text-lg mb-6">
                   Az Élő Reménység azért jött létre, mert hisszük, hogy Isten ma is 
@@ -99,7 +99,7 @@ export default function Mission() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
-              <ScrollReveal key={value.title} delay={index * 0.1}>
+              <ScrollReveal key={value.title} delay={index * 0.05}>
                 <div className="bg-card p-8 rounded-2xl text-center hover-lift h-full">
                   <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                     <value.icon className="w-8 h-8 text-primary" />
@@ -125,7 +125,7 @@ export default function Mission() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.2}>
+            <ScrollReveal delay={0.1}>
               <div className="bg-card p-8 sm:p-12 rounded-2xl shadow-sm">
                 <p className="text-body text-lg mb-6">
                   Az Élő Reménység 2014-ben indult, amikor egy kis csoport barát úgy 

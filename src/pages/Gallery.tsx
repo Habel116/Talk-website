@@ -105,7 +105,7 @@ export default function Gallery() {
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {currentGallery.map((image, index) => (
-              <ScrollReveal key={`${selectedYear}-${index}`} delay={index * 0.1}>
+              <ScrollReveal key={`${selectedYear}-${index}`} delay={index * 0.05}>
                 <button
                   onClick={() => openLightbox(index)}
                   className="group relative aspect-[4/3] overflow-hidden rounded-xl cursor-pointer w-full"
