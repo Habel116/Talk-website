@@ -103,16 +103,18 @@ export default function Gallery() {
           </ScrollReveal>
 
           {/* Gallery Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {currentGallery.map((image, index) => (
-              <ScrollReveal key={`${selectedYear}-${index}`} delay={index * 0.05}>
+          <ScrollReveal>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+              {currentGallery.map((image, index) => (
                 <button
+                  key={`${selectedYear}-${index}`}
                   onClick={() => openLightbox(index)}
                   className="group relative aspect-[4/3] overflow-hidden rounded-xl cursor-pointer w-full"
                 >
                   <img
                     src={image.src}
                     alt={image.alt}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -120,9 +122,9 @@ export default function Gallery() {
                     <p className="font-medium">{image.caption}</p>
                   </div>
                 </button>
-              </ScrollReveal>
-            ))}
-          </div>
+              ))}
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
