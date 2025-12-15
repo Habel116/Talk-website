@@ -36,7 +36,7 @@ export function Header() {
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled
           ? "bg-card/95 backdrop-blur-md shadow-sm py-3"
-          : "bg-transparent py-5"
+          : "bg-foreground/80 backdrop-blur-sm py-5"
       )}
     >
       <div className="container-custom">
@@ -44,9 +44,9 @@ export function Header() {
           {/* Logo */}
           <Link
             to="/"
-            className="font-serif text-2xl font-semibold text-foreground hover:text-primary transition-colors"
+            className="font-serif text-xl sm:text-2xl font-semibold text-primary-foreground hover:text-primary transition-colors"
           >
-            Élő Reménység
+            Találkozások
           </Link>
 
           {/* Desktop Navigation */}
@@ -61,7 +61,9 @@ export function Header() {
                   "hover:after:scale-x-100 hover:after:origin-left",
                   location.pathname === link.href
                     ? "text-primary after:scale-x-100"
-                    : "text-muted-foreground hover:text-foreground"
+                    : isScrolled
+                      ? "text-muted-foreground hover:text-foreground"
+                      : "text-primary-foreground/90 hover:text-primary-foreground"
                 )}
               >
                 {link.label}

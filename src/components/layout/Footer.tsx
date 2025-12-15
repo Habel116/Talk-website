@@ -22,7 +22,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <h3 className="font-serif text-2xl font-semibold mb-4">Élő Reménység</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Találkozások Konferencia</h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Keresztény konferenciák és közösségi események szervezése, 
               ahol a hit, a szeretet és a közösség találkozik.
@@ -112,7 +112,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-primary-foreground/10">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/50 text-sm">
-              © {new Date().getFullYear()} Élő Reménység. Minden jog fenntartva.
+              © {new Date().getFullYear()} Találkozások Konferencia. Minden jog fenntartva.
             </p>
             <p className="text-primary-foreground/50 text-sm">
               Készítve szeretettel és hittel
