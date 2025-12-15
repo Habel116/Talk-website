@@ -36,10 +36,10 @@ export function Header() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-5",
         showTransparent
-          ? "bg-foreground/70 backdrop-blur-sm py-5"
-          : "bg-card/95 backdrop-blur-md shadow-sm py-3"
+          ? "bg-foreground/70 backdrop-blur-sm"
+          : "bg-card/95 backdrop-blur-md shadow-sm"
       )}
     >
       <div className="container-custom">
