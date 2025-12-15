@@ -5,34 +5,40 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
-import eventWorship from "@/assets/event-worship.jpg";
-import heroCommunity from "@/assets/hero-community.jpg";
+import gallery125 from "@/assets/gallery-1.jpg";
+import gallery225 from "@/assets/gallery-2.jpg";
+import gallery325 from "@/assets/gallery-3.jpg";
+import gallery425 from "@/assets/gallery-4.jpg";
+import gallery525 from "@/assets/gallery-5.jpg";
+import gallery625 from "@/assets/gallery-6.jpg";
+import gallery124 from "@/assets/gallery-1-24.jpg";
+import gallery224 from "@/assets/gallery-2-24.jpg";
+import gallery324 from "@/assets/gallery-3-24.jpg";
+import gallery424 from "@/assets/gallery-4-24.jpg";
+import gallery524 from "@/assets/gallery-5-24.jpg";
+import gallery624 from "@/assets/gallery-6-24.jpg";
 
 const galleries = {
-  "2024": [
-    { src: gallery1, alt: "Kiscsoportos beszélgetés", caption: "Kiscsoportos beszélgetések" },
-    { src: gallery2, alt: "Előadás a konferencián", caption: "Inspiráló előadások" },
-    { src: gallery3, alt: "Kávészünet", caption: "Közösségi pillanatok" },
-    { src: gallery4, alt: "Dicsőítés a színpadon", caption: "Dicsőítés és imádat" },
-    { src: eventWorship, alt: "Közös dicsőítés", caption: "Együtt az Úr előtt" },
-    { src: heroCommunity, alt: "Közösség", caption: "Az Élő Reménység közössége" },
+  "2025": [
+    { src: gallery125, alt: "Kiscsoportos beszélgetés", caption: "" },
+    { src: gallery225, alt: "Előadás a konferencián", caption: "" },
+    { src: gallery325, alt: "Kávészünet", caption: "" },
+    { src: gallery425, alt: "Dicsőítés a színpadon", caption: "" },
+    { src: gallery525, alt: "Közös dicsőítés", caption: "" },
+    { src: gallery625, alt: "Közösség", caption: "" },
   ],
-  "2023": [
-    { src: gallery5, alt: "Ima kiscsoportban", caption: "Ima közösségben" },
-    { src: gallery6, alt: "Csoportkép", caption: "Emlékek egy csodás hétvégéről" },
-    { src: gallery3, alt: "Találkozások", caption: "Új barátságok" },
-    { src: gallery1, alt: "Tanítás", caption: "Tanulás és növekedés" },
+  "2024": [
+    { src: gallery124, alt: "Ima kiscsoportban", caption: "" },
+    { src: gallery224, alt: "Csoportkép", caption: "" },
+    { src: gallery324, alt: "Találkozások", caption: "" },
+    { src: gallery424, alt: "Tanítás", caption: "" },
+    { src: gallery524, alt: "Tanítás", caption: "" },
+    { src: gallery624, alt: "Tanítás", caption: "" },
   ],
 };
 
 export default function Gallery() {
-  const [selectedYear, setSelectedYear] = useState<"2024" | "2023">("2024");
+  const [selectedYear, setSelectedYear] = useState<"2025" | "2024">("2025");
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -80,7 +86,7 @@ export default function Gallery() {
           {/* Year Tabs */}
           <ScrollReveal>
             <div className="flex justify-center gap-4 mb-12">
-              {(Object.keys(galleries) as Array<"2024" | "2023">).map((year) => (
+              {(Object.keys(galleries) as Array<"2025" | "2024">).map((year) => (
                 <button
                   key={year}
                   onClick={() => setSelectedYear(year)}

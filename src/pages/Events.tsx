@@ -197,12 +197,12 @@ function EventCard({ event, isPast = false }: EventCardProps) {
 export default function Events() {
   return (
     <Layout>
-      <section className="pt-32 pb-10 bg-primary">
+      <section className="pt-32 pb-10 bg-creamy">
         <div className="container-custom">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
-              <h1 className="heading-display text-foreground mb-6 text-cream">Eseményeink</h1>
-              <p className="text-body italic text-cream">
+              <h1 className="heading-display text-foreground mb-6">Eseményeink</h1>
+              <p className="text-body italic">
                 Tekintsd át közelgő és korábbi konferenciáinkat, talalkozóinkat. 
                 Minden eseményunk a közösség és a lelki növekedés jegyében zajlik.
               </p>
@@ -225,12 +225,13 @@ export default function Events() {
         </div>
       </section>
 
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-primary">
         <div className="container-custom">
-          <SectionHeading
-            title="2025-ös események"
-            subtitle="Korábbi eseményeink archívuma"
-          />
+            <SectionHeading
+              title="2025-ös események"
+              subtitle="Korábbi eseményeink archívuma"
+              className="text-white"
+            />
           <div className="grid lg:grid-cols-2 gap-8">
             {events2025.map((event) => (
               <EventCard key={event.id} event={event} isPast />

@@ -23,9 +23,9 @@ export function SectionHeading({
           className
         )}
       >
-        <h2 className="heading-section text-foreground mb-4">{title}</h2>
+        <h2 className="heading-section mb-4">{title}</h2>
         {subtitle && (
-          <p className="text-body max-w-2xl mx-auto">{subtitle}</p>
+          <p className="max-w-2xl mx-auto">{subtitle}</p>
         )}
       </div>
     </ScrollReveal>
