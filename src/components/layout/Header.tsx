@@ -17,6 +17,9 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  
+  const isHomePage = location.pathname === "/";
+  const showTransparent = isHomePage && !isScrolled;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,9 +37,9 @@ export function Header() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled
-          ? "bg-card/95 backdrop-blur-md shadow-sm py-3"
-          : "bg-foreground/80 backdrop-blur-sm py-5"
+        showTransparent
+          ? "bg-foreground/70 backdrop-blur-sm py-5"
+          : "bg-card/95 backdrop-blur-md shadow-sm py-3"
       )}
     >
       <div className="container-custom">
@@ -44,7 +47,12 @@ export function Header() {
           {/* Logo */}
           <Link
             to="/"
-            className="font-serif text-xl sm:text-2xl font-semibold text-primary-foreground hover:text-primary transition-colors"
+            className={cn(
+              "font-serif text-xl sm:text-2xl font-semibold transition-colors",
+              showTransparent
+                ? "text-primary-foreground hover:text-primary"
+                : "text-foreground hover:text-primary"
+            )}
           >
             Találkozások
           </Link>
@@ -57,13 +65,15 @@ export function Header() {
                 to={link.href}
                 className={cn(
                   "text-sm font-medium transition-colors relative",
-                  "after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-0 after:origin-right after:transition-transform after:duration-300",
+                  "after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:origin-right after:transition-transform after:duration-300",
                   "hover:after:scale-x-100 hover:after:origin-left",
                   location.pathname === link.href
-                    ? "text-primary after:scale-x-100"
-                    : isScrolled
-                      ? "text-muted-foreground hover:text-foreground"
-                      : "text-primary-foreground/90 hover:text-primary-foreground"
+                    ? showTransparent
+                      ? "text-primary-foreground font-semibold after:scale-x-100 after:bg-primary-foreground"
+                      : "text-primary after:scale-x-100 after:bg-primary"
+                    : showTransparent
+                      ? "text-primary-foreground/80 hover:text-primary-foreground after:scale-x-0 after:bg-primary-foreground"
+                      : "text-muted-foreground hover:text-foreground after:scale-x-0 after:bg-primary"
                 )}
               >
                 {link.label}
@@ -75,7 +85,10 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            className="lg:hidden"
+            className={cn(
+              "lg:hidden",
+              showTransparent && "text-primary-foreground hover:bg-primary-foreground/10"
+            )}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label={isMobileMenuOpen ? "Menü bezárása" : "Menü megnyitása"}
           >
@@ -99,7 +112,9 @@ export function Header() {
                   "px-4 py-3 rounded-lg text-base font-medium transition-colors",
                   location.pathname === link.href
                     ? "bg-primary text-primary-foreground"
-                    : "text-foreground hover:bg-secondary"
+                    : showTransparent
+                      ? "text-primary-foreground hover:bg-primary-foreground/10"
+                      : "text-foreground hover:bg-secondary"
                 )}
               >
                 {link.label}
