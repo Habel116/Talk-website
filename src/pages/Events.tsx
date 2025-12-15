@@ -4,8 +4,8 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Calendar, MapPin, Users, Clock, Quote } from "lucide-react";
 import talkkonf2025 from "@/assets/talk-konf-2025.jpg";
 import talkimaej2025 from "@/assets/talk-imaej-2025-2.jpg";
-import talkkonf2026 from "@/assets/talk-konf-2026.jpg";
-import talkimaej2026 from "@/assets/talk-imaej-2026.jpg";
+import talkkonf2026 from "@/assets/talk-konf-2026.JPG";
+import talkimaej2026 from "@/assets/talk-imaej-2026.JPG";
 const events2026 = [
   {
     id: 1,

@@ -11,12 +11,12 @@ import gallery325 from "@/assets/gallery-3.jpg";
 import gallery425 from "@/assets/gallery-4.jpg";
 import gallery525 from "@/assets/gallery-5.jpg";
 import gallery625 from "@/assets/gallery-6.jpg";
-import gallery124 from "@/assets/gallery-1-24.jpg";
-import gallery224 from "@/assets/gallery-2-24.jpg";
-import gallery324 from "@/assets/gallery-3-24.jpg";
-import gallery424 from "@/assets/gallery-4-24.jpg";
-import gallery524 from "@/assets/gallery-5-24.jpg";
-import gallery624 from "@/assets/gallery-6-24.jpg";
+import gallery224 from "@/assets/gallery-2-24.JPG";
+import gallery124 from "@/assets/gallery-1-24.JPG";
+import gallery324 from "@/assets/gallery-3-24.JPG";
+import gallery424 from "@/assets/gallery-4-24.JPG";
+import gallery524 from "@/assets/gallery-5-24.JPG";
+import gallery624 from "@/assets/gallery-6-24.JPG";
 
 const galleries = {
   "2025": [
