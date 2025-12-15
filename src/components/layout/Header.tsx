@@ -36,7 +36,7 @@ export function Header() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-5",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-6",
         showTransparent
           ? "bg-foreground/70 backdrop-blur-sm"
           : "bg-card/95 backdrop-blur-md shadow-sm"
@@ -50,21 +50,21 @@ export function Header() {
             className={cn(
               "font-serif text-xl sm:text-2xl font-semibold transition-colors",
               showTransparent
-                ? "text-primary-foreground hover:text-primary"
+                ? "text-primary-foreground hover:text-primary-foreground/80"
                 : "text-foreground hover:text-primary"
             )}
           >
-            Találkozások
+            Találkozások Konferencia
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 to={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors relative",
+                  "text-base font-medium transition-colors relative",
                   "after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:origin-right after:transition-transform after:duration-300",
                   "hover:after:scale-x-100 hover:after:origin-left",
                   location.pathname === link.href

@@ -60,7 +60,7 @@ export default function Gallery() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-secondary to-background">
+      <section className="pt-40 pb-16 bg-gradient-to-b from-secondary to-background">
         <div className="container-custom">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
