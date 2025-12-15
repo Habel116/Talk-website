@@ -162,7 +162,7 @@ export default function Team() {
         <div className="container-custom">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
-              <ScrollReveal key={member.name} delay={index * 0.1}>
+              <ScrollReveal key={member.name} delay={index * 0.05}>
                 <div className="bg-card rounded-2xl overflow-hidden shadow-sm hover-lift group">
                   <div className="relative aspect-square overflow-hidden">
                     <img

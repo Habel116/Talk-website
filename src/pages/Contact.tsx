@@ -64,7 +64,7 @@ export default function Contact() {
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {contactMethods.map((method, index) => (
-              <ScrollReveal key={method.label} delay={index * 0.1}>
+              <ScrollReveal key={method.label} delay={index * 0.05}>
                 <div className="bg-card p-8 rounded-2xl shadow-sm text-center hover-lift h-full">
                   <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                     <method.icon className="w-8 h-8 text-primary" />
@@ -105,7 +105,7 @@ export default function Contact() {
 
           <div className="flex justify-center gap-6 flex-wrap">
             {socialLinks.map((social, index) => (
-              <ScrollReveal key={social.label} delay={index * 0.1}>
+              <ScrollReveal key={social.label} delay={index * 0.05}>
                 <a
                   href={social.href}
                   target="_blank"

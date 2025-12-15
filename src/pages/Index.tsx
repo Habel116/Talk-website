@@ -127,7 +127,7 @@ export default function Index() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.2}>
+            <ScrollReveal delay={0.1}>
               <div className="relative">
                 <img
                   src={eventImage}
@@ -160,7 +160,7 @@ export default function Index() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <ScrollReveal key={feature.title} delay={index * 0.15}>
+              <ScrollReveal key={feature.title} delay={index * 0.05}>
                 <div className="bg-card p-8 rounded-2xl shadow-sm hover-lift h-full">
                   <div className="w-14 h-14 bg-accent rounded-xl flex items-center justify-center mb-6">
                     <feature.icon className="w-7 h-7 text-primary" />
