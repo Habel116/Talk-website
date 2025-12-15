@@ -160,14 +160,15 @@ export default function Team() {
       {/* Team Grid */}
       <section className="section-padding bg-background">
         <div className="container-custom">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <ScrollReveal key={member.name} delay={index * 0.05}>
-                <div className="bg-card rounded-2xl overflow-hidden shadow-sm hover-lift group">
+          <ScrollReveal>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {teamMembers.map((member) => (
+                <div key={member.name} className="bg-card rounded-2xl overflow-hidden shadow-sm hover-lift group">
                   <div className="relative aspect-square overflow-hidden">
                     <img
                       src={member.image}
                       alt={member.name}
+                      loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -184,9 +185,9 @@ export default function Team() {
                     </p>
                   </div>
                 </div>
-              </ScrollReveal>
-            ))}
-          </div>
+              ))}
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
