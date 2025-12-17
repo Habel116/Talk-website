@@ -45,7 +45,7 @@ export default function Contact() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-secondary to-background">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-primary/10 via-secondary to-accent/30">
         <div className="container-custom">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
@@ -63,35 +63,42 @@ export default function Contact() {
       <section className="section-padding bg-background">
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {contactMethods.map((method, index) => (
-              <ScrollReveal key={method.label} delay={index * 0.05}>
-                <div className="bg-card p-8 rounded-2xl shadow-sm text-center hover-lift h-full">
-                  <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
-                    <method.icon className="w-8 h-8 text-primary" />
+            {contactMethods.map((method, index) => {
+              const colors = [
+                "from-primary/20 to-primary/5 border-primary/20",
+                "from-accent/40 to-accent/10 border-accent/40",
+                "from-secondary to-secondary/50 border-secondary",
+              ];
+              return (
+                <ScrollReveal key={method.label} delay={index * 0.05}>
+                  <div className={`bg-gradient-to-br ${colors[index]} border p-8 rounded-2xl text-center hover-lift h-full`}>
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-primary/5">
+                      <method.icon className="w-8 h-8 text-primary" />
+                    </div>
+                    <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                      {method.label}
+                    </h3>
+                    {method.href ? (
+                      <a
+                        href={method.href}
+                        className="text-primary font-medium hover:underline block mb-2"
+                      >
+                        {method.value}
+                      </a>
+                    ) : (
+                      <p className="text-foreground font-medium mb-2">{method.value}</p>
+                    )}
+                    <p className="text-body-sm">{method.description}</p>
                   </div>
-                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                    {method.label}
-                  </h3>
-                  {method.href ? (
-                    <a
-                      href={method.href}
-                      className="text-primary font-medium hover:underline block mb-2"
-                    >
-                      {method.value}
-                    </a>
-                  ) : (
-                    <p className="text-foreground font-medium mb-2">{method.value}</p>
-                  )}
-                  <p className="text-body-sm">{method.description}</p>
-                </div>
-              </ScrollReveal>
-            ))}
+                </ScrollReveal>
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* Social Media */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-gradient-to-r from-secondary via-accent/20 to-secondary">
         <div className="container-custom">
           <ScrollReveal>
             <div className="text-center mb-12">
@@ -110,7 +117,7 @@ export default function Contact() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex items-center gap-3 bg-card px-8 py-4 rounded-xl shadow-sm transition-all duration-300 hover:text-primary-foreground hover:-translate-y-1 hover:shadow-lg ${social.color}`}
+                  className={`flex items-center gap-3 bg-card px-8 py-4 rounded-xl shadow-md transition-all duration-300 hover:text-primary-foreground hover:-translate-y-1 hover:shadow-lg ${social.color}`}
                 >
                   <social.icon className="w-6 h-6" />
                   <span className="font-medium">{social.label}</span>
@@ -135,7 +142,7 @@ export default function Contact() {
                 megosztani velünk a történetedet – örömmel hallanánk rólad. 
                 Minden üzenetre válaszolunk, és minden embert fontosnak tartunk.
               </p>
-              <div className="bg-accent/50 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-primary/10 via-accent/30 to-secondary p-8 rounded-2xl border border-primary/10">
                 <p className="font-serif text-xl text-foreground italic mb-4">
                   „Bízzál az Úrban teljes szívedből, és ne támaszkodj a magad eszére."
                 </p>
@@ -147,7 +154,7 @@ export default function Contact() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary">
+      <section className="section-padding bg-gradient-to-r from-primary via-primary/90 to-primary">
         <div className="container-custom text-center">
           <ScrollReveal>
             <h2 className="heading-section text-primary-foreground mb-6">
@@ -159,7 +166,7 @@ export default function Contact() {
             </p>
             <a
               href="/esemenyek"
-              className="inline-flex items-center gap-2 bg-card text-foreground px-8 py-4 rounded-lg font-medium hover:bg-secondary transition-colors"
+              className="inline-flex items-center gap-2 bg-card text-foreground px-8 py-4 rounded-lg font-medium hover:bg-secondary transition-colors shadow-lg hover:shadow-xl"
             >
               Események megtekintése
             </a>
