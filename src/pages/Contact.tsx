@@ -75,7 +75,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Methods */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gradient-to-b from-secondary/50 to-background">
         <div className="container-custom">
           <ScrollReveal>
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -146,7 +146,7 @@ export default function Contact() {
       </section>
 
       {/* Encouragement */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gradient-to-b from-background to-secondary/30">
         <div className="container-custom">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
