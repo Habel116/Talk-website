@@ -199,8 +199,8 @@ export default function Events() {
     <Layout>
       <section className="pt-32 pb-10 bg-creamy relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute top-16 -right-12 w-56 h-56 bg-gradient-to-bl from-accent/40 to-secondary/30 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_22px_45px_-12px_rgba(0,0,0,0.1)]" />
-        <div className="absolute bottom-5 -left-16 w-64 h-64 bg-gradient-to-tr from-secondary/40 to-accent/25 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_18px_40px_-10px_rgba(0,0,0,0.08)]" />
+        <div className="absolute top-16 -right-12 w-28 h-28 md:w-56 md:h-56 bg-gradient-to-bl from-accent/40 to-secondary/30 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_22px_45px_-12px_rgba(0,0,0,0.1)]" />
+        <div className="absolute bottom-5 -left-16 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-tr from-secondary/40 to-accent/25 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_18px_40px_-10px_rgba(0,0,0,0.08)]" />
         <div className="container-custom relative">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
@@ -216,8 +216,8 @@ export default function Events() {
 
       <section className="section-padding bg-secondary relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute top-20 -left-10 w-52 h-52 bg-gradient-to-br from-white/45 to-accent/25 rounded-[40%_60%_50%_50%/50%_40%_60%_50%] shadow-[0_20px_42px_-12px_rgba(0,0,0,0.08)]" />
-        <div className="absolute -bottom-10 -right-16 w-60 h-60 bg-gradient-to-tl from-accent/30 to-white/35 rounded-[55%_45%_40%_60%/45%_55%_45%_55%] shadow-[0_18px_38px_-10px_rgba(0,0,0,0.06)]" />
+        <div className="absolute top-20 -left-10 w-26 h-26 md:w-52 md:h-52 bg-gradient-to-br from-white/45 to-accent/25 rounded-[40%_60%_50%_50%/50%_40%_60%_50%] shadow-[0_20px_42px_-12px_rgba(0,0,0,0.08)]" />
+        <div className="absolute -bottom-10 -right-16 w-30 h-30 md:w-60 md:h-60 bg-gradient-to-tl from-accent/30 to-white/35 rounded-[55%_45%_40%_60%/45%_55%_45%_55%] shadow-[0_18px_38px_-10px_rgba(0,0,0,0.06)]" />
         <div className="container-custom relative">
           <SectionHeading
             title="2026-os események"

@@ -100,9 +100,9 @@ export default function Index() {
       {/* About Section */}
       <section className="section-padding bg-background relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute top-10 -left-16 w-64 h-64 bg-gradient-to-br from-accent/35 to-secondary/25 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
-        <div className="absolute bottom-20 -right-20 w-72 h-72 bg-gradient-to-tl from-secondary/45 to-accent/20 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_20px_45px_-10px_rgba(0,0,0,0.1)]" />
-        <div className="absolute top-1/2 right-1/4 w-48 h-48 bg-gradient-to-r from-primary/8 to-accent/12 rounded-[50%_50%_40%_60%/40%_60%_50%_50%] shadow-[0_15px_35px_-8px_rgba(0,0,0,0.06)]" />
+        <div className="absolute top-10 -left-16 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-accent/35 to-secondary/25 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
+        <div className="absolute bottom-20 -right-20 w-36 h-36 md:w-72 md:h-72 bg-gradient-to-tl from-secondary/45 to-accent/20 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_20px_45px_-10px_rgba(0,0,0,0.1)]" />
+        <div className="absolute top-1/2 right-1/4 w-24 h-24 md:w-48 md:h-48 bg-gradient-to-r from-primary/8 to-accent/12 rounded-[50%_50%_40%_60%/40%_60%_50%_50%] shadow-[0_15px_35px_-8px_rgba(0,0,0,0.06)]" />
         <div className="container-custom relative">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <ScrollReveal>
@@ -151,8 +151,8 @@ export default function Index() {
       {/* Features Section */}
       <section className="section-padding bg-secondary relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute top-10 -right-12 w-56 h-56 bg-gradient-to-bl from-white/40 to-accent/25 rounded-[40%_60%_55%_45%/55%_40%_60%_45%] shadow-[0_20px_45px_-12px_rgba(0,0,0,0.08)]" />
-        <div className="absolute -bottom-16 -left-10 w-64 h-64 bg-gradient-to-tr from-accent/30 to-white/30 rounded-[55%_45%_50%_50%/45%_55%_45%_55%] shadow-[0_18px_40px_-10px_rgba(0,0,0,0.06)]" />
+        <div className="absolute top-10 -right-12 w-28 h-28 md:w-56 md:h-56 bg-gradient-to-bl from-white/40 to-accent/25 rounded-[40%_60%_55%_45%/55%_40%_60%_45%] shadow-[0_20px_45px_-12px_rgba(0,0,0,0.08)]" />
+        <div className="absolute -bottom-16 -left-10 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-tr from-accent/30 to-white/30 rounded-[55%_45%_50%_50%/45%_55%_45%_55%] shadow-[0_18px_40px_-10px_rgba(0,0,0,0.06)]" />
         <div className="container-custom relative">
           <ScrollReveal>
             <div className="text-center mb-12">

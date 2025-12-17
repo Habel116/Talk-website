@@ -43,9 +43,9 @@ export default function Mission() {
       {/* Hero */}
       <section className="pt-32 pb-16 bg-background relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
-        <div className="absolute top-10 left-10 w-64 h-64 bg-gradient-to-br from-accent/40 to-secondary/30 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)]" />
-        <div className="absolute bottom-10 right-10 w-80 h-80 bg-gradient-to-tl from-secondary/50 to-accent/20 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
-        <div className="absolute top-1/2 left-1/3 w-48 h-48 bg-gradient-to-r from-primary/10 to-accent/15 rounded-[50%_50%_40%_60%/40%_60%_50%_50%] shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)]" />
+        <div className="absolute top-10 left-10 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-accent/40 to-secondary/30 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)]" />
+        <div className="absolute bottom-10 right-10 w-40 h-40 md:w-80 md:h-80 bg-gradient-to-tl from-secondary/50 to-accent/20 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
+        <div className="absolute top-1/2 left-1/3 w-24 h-24 md:w-48 md:h-48 bg-gradient-to-r from-primary/10 to-accent/15 rounded-[50%_50%_40%_60%/40%_60%_50%_50%] shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)]" />
         
         <div className="container-custom relative">
           <ScrollReveal>
@@ -63,8 +63,8 @@ export default function Mission() {
       {/* Main Mission Statement */}
       <section className="section-padding bg-background relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute -top-20 -right-20 w-72 h-72 bg-gradient-to-bl from-secondary/40 to-accent/20 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)]" />
-        <div className="absolute bottom-20 -left-16 w-56 h-56 bg-gradient-to-tr from-accent/30 to-secondary/25 rounded-[60%_40%_50%_50%/50%_60%_40%_50%] shadow-[0_15px_35px_-10px_rgba(0,0,0,0.08)]" />
+        <div className="absolute -top-20 -right-20 w-36 h-36 md:w-72 md:h-72 bg-gradient-to-bl from-secondary/40 to-accent/20 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)]" />
+        <div className="absolute bottom-20 -left-16 w-28 h-28 md:w-56 md:h-56 bg-gradient-to-tr from-accent/30 to-secondary/25 rounded-[60%_40%_50%_50%/50%_60%_40%_50%] shadow-[0_15px_35px_-10px_rgba(0,0,0,0.08)]" />
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <ScrollReveal>
@@ -108,8 +108,8 @@ export default function Mission() {
       {/* Values */}
       <section className="section-padding bg-gradient-to-br from-secondary via-accent/20 to-secondary relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
-        <div className="absolute top-1/2 -left-10 w-64 h-64 bg-gradient-to-br from-accent/30 to-white/20 rounded-[40%_60%_55%_45%/55%_40%_60%_45%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.1)] -translate-y-1/2" />
-        <div className="absolute top-10 -right-10 w-72 h-72 bg-gradient-to-tl from-white/30 to-accent/20 rounded-[55%_45%_40%_60%/45%_55%_45%_55%] shadow-[0_20px_45px_-15px_rgba(0,0,0,0.08)]" />
+        <div className="absolute top-1/2 -left-10 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-accent/30 to-white/20 rounded-[40%_60%_55%_45%/55%_40%_60%_45%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.1)] -translate-y-1/2" />
+        <div className="absolute top-10 -right-10 w-36 h-36 md:w-72 md:h-72 bg-gradient-to-tl from-white/30 to-accent/20 rounded-[55%_45%_40%_60%/45%_55%_45%_55%] shadow-[0_20px_45px_-15px_rgba(0,0,0,0.08)]" />
         
         <div className="container-custom relative">
           <ScrollReveal>
