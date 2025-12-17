@@ -56,17 +56,14 @@ export default function Contact() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-primary/10 via-secondary to-accent/30 relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
         {/* Decorative elements */}
-        <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-10 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
+        <div className="absolute top-20 right-10 w-72 h-72 bg-accent/30 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-10 w-96 h-96 bg-secondary rounded-full blur-3xl" />
         
         <div className="container-custom relative">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
-              <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-                Beszélgessünk!
-              </span>
               <h1 className="heading-display text-foreground mb-6">Kapcsolat</h1>
               <p className="text-body text-lg">
                 Szeretnél többet megtudni rólunk, kérdésed van, vagy csatlakoznál 
@@ -112,17 +109,14 @@ export default function Contact() {
       </section>
 
       {/* Social Media */}
-      <section className="section-padding bg-gradient-to-br from-secondary via-background to-accent/20 relative overflow-hidden">
+      <section className="section-padding bg-gradient-to-br from-secondary via-accent/20 to-secondary relative overflow-hidden">
         {/* Decorative circles */}
-        <div className="absolute top-1/2 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2" />
-        <div className="absolute top-1/4 right-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-0 w-64 h-64 bg-accent/20 rounded-full blur-3xl -translate-y-1/2" />
+        <div className="absolute top-1/4 right-0 w-80 h-80 bg-secondary rounded-full blur-3xl" />
         
         <div className="container-custom relative">
           <ScrollReveal>
             <div className="text-center mb-12">
-              <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
-                Maradj kapcsolatban
-              </span>
               <h2 className="heading-section text-foreground mb-4">Kövess minket!</h2>
               <p className="text-body max-w-2xl mx-auto">
                 Légy naprakész legújabb híreinkkel és eseményeinkkel kapcsolatban 
@@ -156,9 +150,6 @@ export default function Contact() {
         <div className="container-custom">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
-              <span className="inline-block px-4 py-2 bg-rose-100 text-rose-700 rounded-full text-sm font-medium mb-6">
-                Várunk szeretettel
-              </span>
               <h2 className="heading-section text-foreground mb-6">
                 Ne habozz megkeresni minket!
               </h2>
@@ -179,16 +170,13 @@ export default function Contact() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-gradient-to-br from-primary via-primary/90 to-violet-700 relative overflow-hidden">
+      <section className="section-padding bg-primary relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
         
         <div className="container-custom text-center relative">
           <ScrollReveal>
-            <span className="inline-block px-4 py-2 bg-white/10 text-white rounded-full text-sm font-medium mb-6">
-              Gyere el!
-            </span>
             <h2 className="heading-section text-primary-foreground mb-6">
               Találkozzunk személyesen!
             </h2>

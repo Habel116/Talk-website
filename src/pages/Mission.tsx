@@ -41,17 +41,14 @@ export default function Mission() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-primary/10 via-secondary to-accent/30 relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
         {/* Decorative elements */}
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-10 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-72 h-72 bg-accent/30 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-10 w-96 h-96 bg-secondary rounded-full blur-3xl" />
         
         <div className="container-custom relative">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
-              <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-                Ismerd meg szívünket
-              </span>
               <h1 className="heading-display text-foreground mb-6">Küldetésünk</h1>
               <p className="text-body text-lg">
                 Fedezd fel, mi hajtja a szívünket, és milyen értékek mentén 
@@ -105,17 +102,14 @@ export default function Mission() {
       </section>
 
       {/* Values */}
-      <section className="section-padding bg-gradient-to-br from-secondary via-background to-accent/20 relative overflow-hidden">
+      <section className="section-padding bg-gradient-to-br from-secondary via-accent/20 to-secondary relative overflow-hidden">
         {/* Decorative circles */}
-        <div className="absolute top-1/2 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2" />
-        <div className="absolute top-1/4 right-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-0 w-64 h-64 bg-accent/20 rounded-full blur-3xl -translate-y-1/2" />
+        <div className="absolute top-1/4 right-0 w-80 h-80 bg-secondary rounded-full blur-3xl" />
         
         <div className="container-custom relative">
           <ScrollReveal>
             <div className="text-center mb-12">
-              <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
-                Amiben hiszünk
-              </span>
               <h2 className="heading-section text-foreground mb-4">Értékeink</h2>
               <p className="text-body max-w-2xl mx-auto">
                 Ezek az alapelvek vezérlik minden döntésünket és tevékenységünket.
@@ -150,9 +144,6 @@ export default function Mission() {
           <div className="max-w-4xl mx-auto">
             <ScrollReveal>
               <div className="text-center mb-12">
-                <span className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
-                  Honnan indultunk
-                </span>
                 <h2 className="heading-section text-foreground mb-4">Történetünk</h2>
               </div>
             </ScrollReveal>
@@ -181,16 +172,13 @@ export default function Mission() {
       </section>
 
       {/* Vision */}
-      <section className="section-padding bg-gradient-to-br from-primary via-primary/90 to-violet-700 relative overflow-hidden">
+      <section className="section-padding bg-primary relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
         
         <div className="container-custom text-center relative">
           <ScrollReveal>
-            <span className="inline-block px-4 py-2 bg-white/10 text-white rounded-full text-sm font-medium mb-6">
-              Amit építünk
-            </span>
             <h2 className="heading-section text-primary-foreground mb-6">Jövőképünk</h2>
             <p className="text-lg text-primary-foreground/90 max-w-3xl mx-auto">
               Olyan jövőt képzelünk el, ahol minden magyar városban működik egy élő, 
