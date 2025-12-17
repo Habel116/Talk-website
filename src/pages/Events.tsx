@@ -225,12 +225,11 @@ export default function Events() {
         </div>
       </section>
 
-      <section className="section-padding bg-primary">
+      <section className="section-padding bg-primary/20">
         <div className="container-custom">
             <SectionHeading
               title="2025-ös események"
               subtitle="Korábbi eseményeink archívuma"
-              className="text-white"
             />
           <div className="grid lg:grid-cols-2 gap-8">
             {events2025.map((event) => (
