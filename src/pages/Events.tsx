@@ -143,8 +143,8 @@ function EventCard({ event, isPast = false }: EventCardProps) {
             </h4>
             <ul className="space-y-2">
               {event.program.map((item, idx) => (
-                <li key={idx} className="text-body-sm flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
+                <li key={idx} className="text-sm font-medium text-foreground flex items-start gap-2">
+                  <span className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0" />
                   {item}
                 </li>
               ))}
@@ -225,11 +225,13 @@ export default function Events() {
         </div>
       </section>
 
-      <section className="section-padding bg-primary/20">
+      <section className="section-padding bg-primary">
         <div className="container-custom">
             <SectionHeading
               title="2025-ös események"
               subtitle="Korábbi eseményeink archívuma"
+              titleClassName="text-secondary"
+              subtitleClassName="text-secondary/80"
             />
           <div className="grid lg:grid-cols-2 gap-8">
             {events2025.map((event) => (
