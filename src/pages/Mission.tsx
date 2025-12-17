@@ -82,18 +82,18 @@ export default function Mission() {
 
             <ScrollReveal delay={0.1}>
               <div className="prose prose-lg max-w-none">
-                <p className="text-body text-lg mb-6">
+                <p className="text-black-300 text-lg mb-6">
                   Az Talk csapata azért jött létre, mert hisszük, hogy Isten ma is 
                   élő és cselekvő. Küldetésünk, hogy olyan alkalmakat teremtsünk, ahol 
                   emberek megtapasztalhatják Isten jelenlétét, megújulhat a hitük, és 
                   életre szóló kapcsolatokat építhetnek.
                 </p>
-                <p className="text-body text-lg mb-6">
+                <p className="text-black-300 text-lg mb-6">
                   Konferenciáink nem csupán rendezvények – ezek olyan találkozási pontok, 
                   ahol a mennyei érinti a földit. Ahol megtört szívek gyógyulnak, kérdések 
                   választ kapnak, és új remény születik.
                 </p>
-                <p className="text-body text-lg">
+                <p className="text-black-300 text-lg">
                   Minden korosztályt és élethelyzetet várunk szeretettel. Legyen szó 
                   fiatalokról, akik keresik az útjukat, családokról, akik megerősítésre 
                   vágynak, vagy idősebbekről, akik bölcsességüket szeretnék átadni – 
@@ -153,18 +153,18 @@ export default function Mission() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.1}>
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 sm:p-12 rounded-3xl shadow-lg border border-amber-200/50">
-                <p className="text-body text-lg mb-6">
+              <div className="bg-gradient-to-br from-rose-50 to-amber-50 p-8 rounded-3xl border border-rose-200/50 shadow-lg p-8 sm:p-12 shadow-lg border border-amber-200/50">
+                <p className="text-black-300 text-lg mb-6">
                   Az Talk 2022-ben indult, amikor egy kis csoport barát úgy 
                   érezte, hogy szükség van olyan eseményekre, amelyek ötvözik a mély 
                   tanítást, az őszinte közösséget és a szívből jövő dicsőítést.
                 </p>
-                <p className="text-body text-lg mb-6">
+                <p className="text-black-300 text-lg mb-6">
                   Az első konferenciánk mindössze 50 résztvevővel zajlott egy kis 
                   imaházban. Ma már évente több száz ember vesz részt programjainkon, 
                   de a szívünk ugyanaz maradt: szolgálni az embereket és dicsőíteni Istent.
                 </p>
-                <p className="text-body text-lg">
+                <p className="text-black-300 text-lg">
                   Az elmúlt évtizedben számtalan bizonyságot hallottunk megváltozott 
                   életekről, helyreállt kapcsolatokról és újjászületett reményről. 
                   Ezekért a pillanatokért érdemes folytatni.
