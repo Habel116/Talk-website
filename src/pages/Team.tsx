@@ -204,7 +204,7 @@ export default function Team() {
                 bármilyen formában, keress minket bizalommal!
               </p>
               <a
-                href="mailto:info@eloremenseg.hu"
+                href="mailto:talalkozasok.prem@gmail.com"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-burgundy-light transition-colors"
               >
                 Írj nekünk
