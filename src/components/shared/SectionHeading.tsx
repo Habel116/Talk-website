@@ -6,6 +6,8 @@ interface SectionHeadingProps {
   subtitle?: string;
   centered?: boolean;
   className?: string;
+  titleClassName?: string;
+  subtitleClassName?: string;
 }
 
 export function SectionHeading({
@@ -13,6 +15,8 @@ export function SectionHeading({
   subtitle,
   centered = true,
   className,
+  titleClassName,
+  subtitleClassName,
 }: SectionHeadingProps) {
   return (
     <ScrollReveal>
@@ -23,9 +27,9 @@ export function SectionHeading({
           className
         )}
       >
-        <h2 className="heading-section mb-4">{title}</h2>
+        <h2 className={cn("heading-section mb-4", titleClassName)}>{title}</h2>
         {subtitle && (
-          <p className="max-w-2xl mx-auto">{subtitle}</p>
+          <p className={cn("max-w-2xl mx-auto", subtitleClassName)}>{subtitle}</p>
         )}
       </div>
     </ScrollReveal>
