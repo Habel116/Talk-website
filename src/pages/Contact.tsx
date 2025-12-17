@@ -63,15 +63,9 @@ export default function Contact() {
       <section className="section-padding bg-background">
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {contactMethods.map((method, index) => {
-              const colors = [
-                "from-primary/20 to-primary/5 border-primary/20",
-                "from-accent/40 to-accent/10 border-accent/40",
-                "from-secondary to-secondary/50 border-secondary",
-              ];
-              return (
-                <ScrollReveal key={method.label} delay={index * 0.05}>
-                  <div className={`bg-gradient-to-br ${colors[index]} border p-8 rounded-2xl text-center hover-lift h-full`}>
+          {contactMethods.map((method, index) => (
+              <ScrollReveal key={method.label} delay={index * 0.05}>
+                <div className="bg-card p-8 rounded-2xl shadow-sm text-center hover-lift h-full">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-primary/5">
                       <method.icon className="w-8 h-8 text-primary" />
                     </div>
@@ -89,10 +83,9 @@ export default function Contact() {
                       <p className="text-foreground font-medium mb-2">{method.value}</p>
                     )}
                     <p className="text-body-sm">{method.description}</p>
-                  </div>
-                </ScrollReveal>
-              );
-            })}
+                </div>
+              </ScrollReveal>
+            ))}
           </div>
         </div>
       </section>
