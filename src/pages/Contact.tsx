@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { Mail, Phone, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
@@ -58,9 +59,9 @@ export default function Contact() {
       {/* Hero */}
       <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
-        <div className="absolute top-10 right-10 w-64 h-64 bg-gradient-to-bl from-accent/40 to-white/30 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
-        <div className="absolute bottom-5 left-10 w-72 h-72 bg-gradient-to-tr from-white/40 to-secondary/50 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_20px_45px_-10px_rgba(0,0,0,0.1)]" />
-        <div className="absolute top-1/2 left-1/4 w-48 h-48 bg-gradient-to-r from-primary/10 to-accent/15 rounded-[50%_50%_40%_60%/40%_60%_50%_50%] shadow-[0_15px_35px_-8px_rgba(0,0,0,0.08)]" />
+        <div className="absolute top-10 right-10 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-bl from-accent/40 to-white/30 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
+        <div className="absolute bottom-5 left-10 w-36 h-36 md:w-72 md:h-72 bg-gradient-to-tr from-white/40 to-secondary/50 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_20px_45px_-10px_rgba(0,0,0,0.1)]" />
+        <div className="absolute top-1/2 left-1/4 w-24 h-24 md:w-48 md:h-48 bg-gradient-to-r from-primary/10 to-accent/15 rounded-[50%_50%_40%_60%/40%_60%_50%_50%] shadow-[0_15px_35px_-8px_rgba(0,0,0,0.08)]" />
         
         <div className="container-custom relative">
           <ScrollReveal>
@@ -78,8 +79,8 @@ export default function Contact() {
       {/* Contact Methods */}
       <section className="section-padding bg-gradient-to-b from-secondary/50 to-background relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute -top-16 -left-16 w-56 h-56 bg-gradient-to-br from-accent/25 to-secondary/30 rounded-[60%_40%_50%_50%/50%_60%_40%_50%] shadow-[0_20px_40px_-12px_rgba(0,0,0,0.08)]" />
-        <div className="absolute bottom-10 -right-10 w-48 h-48 bg-gradient-to-tl from-secondary/35 to-accent/20 rounded-[40%_60%_55%_45%/55%_40%_60%_45%] shadow-[0_15px_30px_-10px_rgba(0,0,0,0.06)]" />
+        <div className="absolute -top-16 -left-16 w-28 h-28 md:w-56 md:h-56 bg-gradient-to-br from-accent/25 to-secondary/30 rounded-[60%_40%_50%_50%/50%_60%_40%_50%] shadow-[0_20px_40px_-12px_rgba(0,0,0,0.08)]" />
+        <div className="absolute bottom-10 -right-10 w-24 h-24 md:w-48 md:h-48 bg-gradient-to-tl from-secondary/35 to-accent/20 rounded-[40%_60%_55%_45%/55%_40%_60%_45%] shadow-[0_15px_30px_-10px_rgba(0,0,0,0.06)]" />
         <div className="container-custom">
           <ScrollReveal>
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -115,8 +116,8 @@ export default function Contact() {
       {/* Social Media */}
       <section className="section-padding bg-gradient-to-br from-secondary via-accent/20 to-secondary relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
-        <div className="absolute top-1/2 -left-8 w-56 h-56 bg-gradient-to-br from-accent/30 to-white/25 rounded-[45%_55%_50%_50%/50%_45%_55%_50%] shadow-[0_20px_45px_-12px_rgba(0,0,0,0.1)] -translate-y-1/2" />
-        <div className="absolute top-16 -right-8 w-64 h-64 bg-gradient-to-tl from-white/35 to-accent/20 rounded-[50%_50%_45%_55%/45%_55%_45%_55%] shadow-[0_18px_40px_-10px_rgba(0,0,0,0.08)]" />
+        <div className="absolute top-1/2 -left-8 w-28 h-28 md:w-56 md:h-56 bg-gradient-to-br from-accent/30 to-white/25 rounded-[45%_55%_50%_50%/50%_45%_55%_50%] shadow-[0_20px_45px_-12px_rgba(0,0,0,0.1)] -translate-y-1/2" />
+        <div className="absolute top-16 -right-8 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-tl from-white/35 to-accent/20 rounded-[50%_50%_45%_55%/45%_55%_45%_55%] shadow-[0_18px_40px_-10px_rgba(0,0,0,0.08)]" />
         
         <div className="container-custom relative">
           <ScrollReveal>
@@ -152,8 +153,8 @@ export default function Contact() {
       {/* Encouragement */}
       <section className="section-padding bg-gradient-to-b from-background to-secondary/30 relative overflow-hidden">
         {/* Decorative blob elements */}
-        <div className="absolute top-10 -left-12 w-52 h-52 bg-gradient-to-br from-secondary/30 to-accent/20 rounded-[55%_45%_50%_50%/45%_55%_45%_55%] shadow-[0_18px_38px_-12px_rgba(0,0,0,0.08)]" />
-        <div className="absolute -bottom-10 right-10 w-60 h-60 bg-gradient-to-tl from-accent/25 to-secondary/35 rounded-[45%_55%_60%_40%/55%_45%_55%_45%] shadow-[0_15px_35px_-10px_rgba(0,0,0,0.06)]" />
+        <div className="absolute top-10 -left-12 w-26 h-26 md:w-52 md:h-52 bg-gradient-to-br from-secondary/30 to-accent/20 rounded-[55%_45%_50%_50%/45%_55%_45%_55%] shadow-[0_18px_38px_-12px_rgba(0,0,0,0.08)]" />
+        <div className="absolute -bottom-10 right-10 w-30 h-30 md:w-60 md:h-60 bg-gradient-to-tl from-accent/25 to-secondary/35 rounded-[45%_55%_60%_40%/55%_45%_55%_45%] shadow-[0_15px_35px_-10px_rgba(0,0,0,0.06)]" />
         <div className="container-custom">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
@@ -191,12 +192,12 @@ export default function Contact() {
               A legjobb módja annak, hogy megismerj minket, ha részt veszel 
               valamelyik eseményünkön. Gyere el, és légy részese a közösségnek!
             </p>
-            <a
-              href="/esemenyek"
+            <Link
+              to="/esemenyek"
               className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-lg font-medium hover:bg-white/90 transition-colors shadow-lg"
             >
               Események megtekintése
-            </a>
+            </Link>
           </ScrollReveal>
         </div>
       </section>
