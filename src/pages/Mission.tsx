@@ -41,7 +41,7 @@ export default function Mission() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-background relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-20 left-10 w-72 h-72 bg-accent/30 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-10 w-96 h-96 bg-secondary rounded-full blur-3xl" />
@@ -122,7 +122,7 @@ export default function Mission() {
               {values.map((value) => (
                 <div 
                   key={value.title} 
-                  className={`bg-gradient-to-br ${value.gradient} backdrop-blur-sm p-8 rounded-2xl text-center hover-lift h-full border border-white/50 shadow-lg`}
+                  className={`bg-white backdrop-blur-sm p-8 rounded-2xl text-center hover-lift h-full border border-white/50 shadow-lg`}
                 >
                   <div className={`w-16 h-16 ${value.iconBg} rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-md`}>
                     <value.icon className={`w-8 h-8 ${value.iconColor}`} />

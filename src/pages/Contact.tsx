@@ -82,7 +82,7 @@ export default function Contact() {
               {contactMethods.map((method) => (
                 <div 
                   key={method.label}
-                  className={`bg-gradient-to-br ${method.gradient} backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover-lift h-full border border-white/50`}
+                  className={`bg-white backdrop-blur-sm p-8 rounded-2xl shadow-lg text-center hover-lift h-full border border-white/50`}
                 >
                   <div className={`w-16 h-16 ${method.iconBg} rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-md`}>
                     <method.icon className={`w-8 h-8 ${method.iconColor}`} />
