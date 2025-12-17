@@ -63,7 +63,7 @@ const teamMembers = [
     name: "Hajdú Emese",
     role: "",
     image: hemese,
-    bio: "Hajdú Emese vagyok, 15 éves, református gimnáziumba járok. A csetényi ifinek és a gyülekezetnek lelkes tagjaként már szolgálatokat is vállalok. Szeretek énekelni, röplabdázni, zenélni. A találkozó szervezésénél különböző háttérmunkákat végzek. Én is énekelek majd az Oázis Worship dicsőítő csapatában. Hiszem, hogy velem lesz teljes a stáb!",
+    bio: "Hajdú Emese vagyok, 17 éves, református gimnáziumba járok. A csetényi ifinek és a gyülekezetnek lelkes tagjaként már szolgálatokat is vállalok. Szeretek énekelni, röplabdázni, zenélni. A találkozó szervezésénél különböző háttérmunkákat végzek. Én is énekelek az Oázis Worship dicsőítő csapatában. Hiszem, hogy velem lesz teljes a stáb!",
   },
   {
     name: "Hajdú Ferenc",

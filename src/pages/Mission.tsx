@@ -29,7 +29,7 @@ export default function Mission() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-secondary to-background">
+      <section className="pt-32 pb-6 bg-gradient-to-b from-secondary to-background">
         <div className="container-custom">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
@@ -63,7 +63,7 @@ export default function Mission() {
             <ScrollReveal delay={0.1}>
               <div className="prose prose-lg max-w-none">
                 <p className="text-body text-lg mb-6">
-                  Az Élő Reménység azért jött létre, mert hisszük, hogy Isten ma is 
+                  Az Talk csapata azért jött létre, mert hisszük, hogy Isten ma is 
                   élő és cselekvő. Küldetésünk, hogy olyan alkalmakat teremtsünk, ahol 
                   emberek megtapasztalhatják Isten jelenlétét, megújulhat a hitük, és 
                   életre szóló kapcsolatokat építhetnek.
@@ -128,7 +128,7 @@ export default function Mission() {
             <ScrollReveal delay={0.1}>
               <div className="bg-card p-8 sm:p-12 rounded-2xl shadow-sm">
                 <p className="text-body text-lg mb-6">
-                  Az Élő Reménység 2014-ben indult, amikor egy kis csoport barát úgy 
+                  Az Talk 2022-ben indult, amikor egy kis csoport barát úgy 
                   érezte, hogy szükség van olyan eseményekre, amelyek ötvözik a mély 
                   tanítást, az őszinte közösséget és a szívből jövő dicsőítést.
                 </p>
