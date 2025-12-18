@@ -41,7 +41,7 @@ export default function Mission() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-background relative overflow-hidden">
+      <section className="pt-32 pb-6 bg-background relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
         <div className="absolute top-10 left-10 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-accent/40 to-secondary/30 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)]" />
         <div className="absolute bottom-10 right-10 w-40 h-40 md:w-80 md:h-80 bg-gradient-to-tl from-secondary/50 to-accent/20 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
@@ -51,9 +51,9 @@ export default function Mission() {
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="heading-display text-foreground mb-6">Küldetésünk</h1>
-              <p className="text-body text-lg">
+              <p className="text-body text-lg italic">
                 Fedezd fel, mi hajtja a szívünket, és milyen értékek mentén 
-                építjük közösségünket.
+                építjük szolgálatunkat.
               </p>
             </div>
           </ScrollReveal>
@@ -70,13 +70,12 @@ export default function Mission() {
             <ScrollReveal>
               <div className="text-center mb-16 bg-gradient-to-br from-primary/5 via-accent/10 to-secondary p-10 rounded-3xl border border-primary/10">
                 <span className="text-primary font-medium text-sm uppercase tracking-wider mb-4 block">
-                  Hitvallásunk
+                  Igei vezetésünk
                 </span>
                 <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-snug mb-8">
-                  „Mert ahol ketten vagy hárman összegyűlnek az én nevemben, 
-                  ott vagyok közöttük."
+                  „Mert én ismerem az én gondolataimat, amelyeket rólatok gondolok – így szól az Úr -; békességre és nem háborúságra gondolok, hogy jövőt és reménységet adjak nektek. Akkor majd segítségül hívtok engem, eljöttök, és imádkoztok hozzám, és én meghallgatlak titeket. Kerestek majd engem és megtaláltok, mert teljes szívetekből kerestek engem."
                 </h2>
-                <p className="text-muted-foreground italic text-lg">— Máté 18:20</p>
+                <p className="text-muted-foreground italic text-lg">— Jeremiás könyve 29. fejezet, 11-13. versek</p>
               </div>
             </ScrollReveal>
 

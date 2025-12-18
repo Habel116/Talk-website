@@ -23,8 +23,8 @@ export function Footer() {
           <div className="lg:col-span-1">
             <h3 className="font-serif text-2xl font-semibold mb-4">Találkozások Konferencia</h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
-              Keresztény konferenciák és közösségi események szervezése, 
-              ahol a hit, a szeretet és a közösség találkozik.
+              Ifjúsági konferenciák és események, 
+              ahol a fiatalok találkoznak Istennel és egymással.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -84,7 +84,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 text-primary" />
                 <span className="text-primary-foreground/70 text-sm">
-                  Csetény, Magyarország
+                  Pápai Református Egyházegye
                 </span>
               </li>
             </ul>

@@ -151,9 +151,9 @@ export default function Team() {
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="heading-display text-foreground mb-6">Csapatunk</h1>
-              <p className="text-body">
+              <p className="text-body italic">
                 Ismerd meg azokat az embereket, akik szívvel-lélekkel dolgoznak azon, 
-                hogy eseményeink felejthetetlen élményt nyújtsanak.
+                hogy eseményeinken együtt élhessük át Isten országának valóságát.
               </p>
             </div>
           </ScrollReveal>
@@ -210,7 +210,7 @@ export default function Team() {
                 Csatlakozz hozzánk!
               </h2>
               <p className="text-body mb-8">
-                Ha szeretnél részese lenni a szolgálatunknak önkéntesként vagy 
+                Ha szeretnél részese lenni a szolgálatunknak szervezőként, önkéntesként vagy 
                 bármilyen formában, keress minket bizalommal!
               </p>
               <a

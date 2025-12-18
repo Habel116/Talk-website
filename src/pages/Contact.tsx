@@ -57,7 +57,7 @@ export default function Contact() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
+      <section className="pt-32 pb-6 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
         <div className="absolute top-10 right-10 w-32 h-32 md:w-64 md:h-64 bg-gradient-to-bl from-accent/40 to-white/30 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.12)]" />
         <div className="absolute bottom-5 left-10 w-36 h-36 md:w-72 md:h-72 bg-gradient-to-tr from-white/40 to-secondary/50 rounded-[55%_45%_35%_65%/45%_60%_40%_55%] shadow-[0_20px_45px_-10px_rgba(0,0,0,0.1)]" />
@@ -67,9 +67,9 @@ export default function Contact() {
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="heading-display text-foreground mb-6">Kapcsolat</h1>
-              <p className="text-body text-lg">
+              <p className="text-body text-lg italic">
                 Szeretnél többet megtudni rólunk, kérdésed van, vagy csatlakoznál 
-                közösségünkhöz? Keress minket bizalommal!
+                szolgálatunkhoz? Keress minket bizalommal!
               </p>
             </div>
           </ScrollReveal>
@@ -168,9 +168,9 @@ export default function Contact() {
               </p>
               <div className="bg-gradient-to-br from-rose-50 to-amber-50 p-8 rounded-3xl border border-rose-200/50 shadow-lg">
                 <p className="font-serif text-xl text-foreground italic mb-4">
-                  „Bízzál az Úrban teljes szívedből, és ne támaszkodj a magad eszére."
+                  „Mert ahol ketten vagy hárman összegyűlnek az én nevemben, ott vagyok köztük."
                 </p>
-                <p className="text-muted-foreground">— Példabeszédek 3:5</p>
+                <p className="text-muted-foreground">— Máté 18:20</p>
               </div>
             </div>
           </ScrollReveal>
@@ -190,7 +190,7 @@ export default function Contact() {
             </h2>
             <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto mb-8">
               A legjobb módja annak, hogy megismerj minket, ha részt veszel 
-              valamelyik eseményünkön. Gyere el, és légy részese a közösségnek!
+              valamelyik eseményünkön. Gyere el, és légy részese Isten munkájának köztünk!
             </p>
             <Link
               to="/esemenyek"

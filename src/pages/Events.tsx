@@ -12,29 +12,30 @@ const events2026 = [
     title: "Találkozások Konferencia",
     date: "2026. március 21.",
     location: "Pápa, Pápai Református Gimnázium",
-    description: "A nap célja a lelki feltöltődés. Inspiráló eloadások, dicsőités és közösség.",
+    description: "A nap célja, hogy inspiráljuk a résztvevőket Jézus elkötelezett követésében.",
     image: talkkonf2026,
     program: [
       "Nyitó dicsőités és köszöntés",
       "Főelőadás és kiscsoportos beszélgetések",
-      "Workshopok és Talk caffé",
+      "Választható workshopok és Talk Caffé",
       "Záró dicsőítés",
     ],
-    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Ablonci Áron"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Ablonczy Áron - Zsinati Ifjúsági Iroda vezetője"],
   },
   {
     id: 2,
     title: "Talk imaéjjel",
     date: "Coming Soon",
     location: "Pápa, Pápai Református Gimnázium",
-    description: "Egy fejethetetlen este, középpontban Isten és az ima.",
+    description: "Egy lélekemelő este, középpontban Isten és az imádság.",
     image: talkimaej2026,
     program: [
       "Közös vacsora",
       "Főelőadás és kiscsoportos beszélgetések",
+      "Táncház",
       "Éjszakai dicsőítés",
       "Alvás!",
-      "Reggeli áhitat"
+      "Reggeli útravaló"
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető"],
   }
@@ -52,13 +53,13 @@ const events2025 = [
       "Közös vacsora",
       "Főelőadás és kiscsoportos beszélgetések",
       "Élő podcast",
-      "Egyéni elcsendesülés",
+      "Egyéni elcsendesedés",
       "Táncház",
       "Éjszakai dicsőítés",
       "Alvás!",
-      "Reggeli áhitat"
+      "Reggeli útravaló"
     ],
-    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Erlitz Anita - református lelkipásztor asszony"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Erlitz Anita - református lelkipásztor, Csorna"],
     testimonials: [
       {
         quote: "Ügyes volt a szervezés, gratulálok!!",
@@ -80,13 +81,13 @@ const events2025 = [
     program: [
       "Nyitó dicsőités és köszöntés",
       "Főelőadás és kiscsoportos beszélgetések",
-      "Workshopok és Talk caffé",
+      "Választható workshopok és Talk Caffé",
       "Záró dicsőítés"
     ],
-    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Farkas Balázs - lelkipásztor"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Farkas Balázs - református lelkipásztor, Tata"],
     testimonials: [
       {
-        quote: "Nagyon jól éreztem magam és remélem sok ilyen alkalmon vehetek meg részt",
+        quote: "Nagyon jól éreztem magam és remélem sok ilyen alkalmon vehetek meg részt.",
         author: "Anna, 15 éves",
       },
       {
@@ -207,7 +208,7 @@ export default function Events() {
               <h1 className="heading-display text-foreground mb-6">Eseményeink</h1>
               <p className="text-body italic">
                 Tekintsd át közelgő és korábbi konferenciáinkat, talalkozóinkat. 
-                Minden eseményunk a közösség és a lelki növekedés jegyében zajlik.
+                Minden eseményünk Isten mélyebb megismerése, az egymással megélt közösség és a lelki növekedés jegyében zajlik.
               </p>
             </div>
           </ScrollReveal>

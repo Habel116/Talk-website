@@ -74,7 +74,7 @@ export default function Gallery() {
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="heading-display text-foreground mb-6">Galéria</h1>
-              <p className="text-body">
+              <p className="text-body italic">
                 Pillants bele korábbi eseményeink hangulatába! 
                 Képeink megörökítik a közösség, a dicsőítés és az együtt töltött idő szépségét.
               </p>

@@ -10,18 +10,18 @@ import eventImage from "@/assets/event-picture.jpg";
 const features = [
   {
     icon: Calendar,
-    title: "Inspiráló Események",
-    description: "Évente több alkalommal szervezünk konferenciákat és találkozókat a lelki megújulásért.",
+    title: "Inspiráló Dicsőítés és Tanítás",
+    description: "Az eseményeinken megszólaló üzenetek és énekek a Szentlélek által belső tűzzé válnak a nyitott szívekben.",
   },
   {
     icon: Users,
     title: "Élő Közösség",
-    description: "Olyan közösséget építünk, ahol mindenki otthon érezheti magát és növekedhet hitében.",
+    description: "Olyan közösséget építünk, amelyben a fiatalok felemelik és bátorítják egymást, miközben feljesztik Krisztustól tanult tulajdonságaikat.",
   },
   {
     icon: Heart,
     title: "Szolgáló Szív",
-    description: "Szenvedéllyel szolgálunk, hogy mások is megtapasztalhassák Isten szeretetét.",
+    description: "Szenvedéllyel szolgálunk, hogy másokat is inspiráljunk a szolgálatra, hogy együtt mutassuk meg Isten szeretetét.",
   },
 ];
 
@@ -48,7 +48,7 @@ export default function Index() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="heading-display text-primary-foreground mb-6 max-w-4xl mx-auto">
-              Ahol a hit közösséggé válik
+              Ahol találkozhatsz Istennel
             </h1>
           </motion.div>
 
@@ -58,8 +58,8 @@ export default function Index() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Keresztény konferenciákat és közösségi alkalmakat szervezünk, 
-            ahol megújulhat a lelked és életre szóló kapcsolatokat építhetsz.
+            Ifjúsági konferenciákat és közösségi alkalmakat szervezünk, 
+            ahol megismerheted Krisztust, Aki átformálja életedet és kapcsolataidat.
           </motion.p>
 
           <motion.div
@@ -111,12 +111,10 @@ export default function Index() {
                   Rólunk
                 </span>
                 <h2 className="heading-section text-foreground mb-6">
-                  Küldetésünk a közösségépítés
+                  Küldetésünk az életmentés
                 </h2>
                 <p className="text-body mb-6">
-                  A Találkozások Konferencia csapata évek óta elkötelezetten dolgozik azon, 
-                  hogy olyan alkalmakat hozzon létre, ahol fiatalok és felnőttek egyaránt 
-                  megtapasztalhatják a hit erejét és a közösség melegét.
+                  Szolgálatunk célja, hogy megismertessük Jézus szeretetét fiatalokkal, hogy átéljék köztünk a befogadó szeretet mélységét, és személyes példamutatásunkkal bátorítsuk őket, hogy éljenek Isten dicsőségére betöltve a Tőle rendelt küldetésüket a világban és a gyülekezetükben.
                 </p>
                 <p className="text-body mb-8">
                   Konferenciáink nem csupán események – ezek találkozási pontok, 
@@ -191,8 +189,8 @@ export default function Index() {
               Csatlakozz következő eseményünkhöz
             </h2>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto mb-8">
-              Ne maradj le a 2026-ös konferenciáinkról! Tekintsd meg közelgő 
-              eseményeinket és légy részese valami csodálatosnak.
+              Ne maradj le a 2026-os konferenciáinkról! Tekintsd meg közelgő 
+              találkozónkat, és hozd el magaddal barátaidat is.
             </p>
             <Button asChild size="xl" variant="secondary">
               <Link to="/esemenyek">
