@@ -3,7 +3,7 @@ import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 
 import barni from "@/assets/team/BognarBarnabas-scaled.jpg";
-import lilla from "@/assets/team/BognarLilla-scaled.jpg";
+import lilla from "@/assets/team/BognarLilla.jpg";
 import gyongyi from "@/assets/team/FeketeGyongyi.jpg";
 import linda from "@/assets/team/GuoLinda.jpeg";
 import abel from "@/assets/team/HajduAbel.jpeg";
@@ -18,9 +18,9 @@ import flora from "@/assets/team/KerteszFloraJPG.jpg";
 import zsofi from "@/assets/team/KerteszZsofi-scaled.jpg";
 import eszter from "@/assets/team/KirosEszter-scaled.jpg";
 import kemese from "@/assets/team/KohanEmese.jpeg";
-import greta from "@/assets/team/LamportGreta-scaled.jpg";
+import greta from "@/assets/team/LamportGreta.jpg";
 import tamas from "@/assets/team/PulaTamasDaniel.jpg";
-import zalan from "@/assets/team/VasZalanKende.jpg";
+import zalan from "@/assets/team/VasZalanKende2.jpg";
 
 const teamMembers = [
   {
@@ -33,7 +33,7 @@ const teamMembers = [
     name: "Bognár Lilla",
     role: "",
     image: lilla,
-    bio: "Bognár Lilla vagyok, 16 éves gimnazista, a Csetényi Református Gyülekezet és ifi közösség tagja. Az Oázis Worship énekeseként és bizonyságtevőként találkozhattok majd velem a konfi során. Fő motivációm, hogy minél több fiatal megtapasztalhassa, milyen Isten végtelen kegyelmében és szeretetében élni.",
+    bio: "Bognár Lilla vagyok, a csetényi gyüli és ifi közösség lelkes tagja. A talkos eseményeken az Oázis Worship énekeseként találkozhattok velem. Fő motivációm, hogy minél több fiatal megtapasztalhassa, milyen Isten végtelen kegyelmében és szeretetében élni.",
   },
   {
     name: "Fekete Gyöngyi",
@@ -123,19 +123,19 @@ const teamMembers = [
     name: "Lamport Gréta",
     role: "",
     image: greta,
-    bio: "Lamport Gréta vagyok, elsőéves egyetemista Budapesten. Alapvetően a katolikus egyház tagja vagyok Tapolcán, viszont egy ideje már, ahogy lehetőségem és időm engedi, a csetényi ifibe járok. Hálás vagyok, hogy én is a TALK csapat tagja lehetek, és most én is részt vehetek az imaéjjel szervezésében. Szeretném, hogy minél több fiatal megismerhesse Istent és az Ő végtelen szeretetét, illetve egy olyan közösséget találjanak, ahol egymást támogatva haladhatnak ezen az úton.",
+    bio: "Lamport Gréta vagyok Tapolcáról, jelenleg Budapestre járok egyetemre. Az egyetemen tagja vagyok a MEKDSZ-nek és Corvinus Keresztény Diákkör egyik vezetője lehetek. Hálás vagyok, hogy a csetényi ifi és TALK csapat részese lehetek és vihetjük ezt a szolgálatot, már sok pozitív visszajelzést kaptunk a fiatalokról az eseményekről, ami megerősít minket abban, hogy megéri csinálnunk. Szeretném, hogy minél több fiatal megismerhesse Istent és az Ő végtelen szeretetét, illetve egy olyan közösséget találjanak, ahol egymást támogatva haladhatnak ezen az úton. Hiszem, hogy akkor lehetnek sikeresek az eseményeink, ha lelkiismeretes odaadással, lelkesedéssel és alázattal szervezzük, hogy elérhessük a közös célunkat.",
   },
   {
     name: "Pula Tamás Dániel",
     role: "",
     image: tamas,
-    bio: "Pula Tamás Dániel vagyok a Pápai Református Teológiai Akadémia 4. éves hallgatója. Közel áll hozzám a magyar néphagyomány minden tere. A népzene és a néptánc kifejezetten. Szeretek táncházakat tartani/részt venni benne. Számomra nagyon fontos, hogy megfelelő bizalom kialakulhasson ember-ember között is. Hiszem, hogy szavakkal meg lehet változtatni emberek életét, és közelebb vinni őket a mindenható Istenhez.",
+    bio: "Pula Tamás Dániel vagyok a Pápai Református Teológiai Akadémia hallgatója. Közel áll hozzám a magyar néphagyomány minden tere. A népzene és a néptánc kifejezetten. Szeretek táncházakat tartani/részt venni benne. Számomra nagyon fontos, hogy megfelelő bizalom kialakulhasson ember-ember között is. Hiszem, hogy szavakkal meg lehet változtatni emberek életét, és közelebb vinni őket a mindenható Istenhez.",
   },
   {
     name: "Vas Zalán Kende",
     role: "",
     image: zalan,
-    bio: "Vas Zalán Kende vagyok, 19 éves gimnazista, a csetényi baptista gyülekezet bemerített tagja és dicsőítő csapatának tagja, egyben a csetényi református ifiközösség tagja. Szeretném, ha a velem egykorú fiatalok közelebb kerülnének Istenhez, ezért fő motivációm, hogy minél jobban megismertessem Őt velük.",
+    bio: "Vas Zalán Kende vagyok, 21 éves egyetemista, a csetényi református ifi egyik régi motorosa, a helyi baptista gyülekezet dicsőítő csapatának háttérmunkása és gitárosa, illetve az Oázis Worshipben is szoktam vendégeskedni gitárosként. Vágyam, hogy zenémmel és életemmel közelebb vigyem a fiatalokat Istenhez.",
   },
 ];
 
