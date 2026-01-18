@@ -73,7 +73,7 @@ export default function Mission() {
                   Igei vezetésünk
                 </span>
                 <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-snug mb-8">
-                  „Mert én ismerem az én gondolataimat, amelyeket rólatok gondolok – így szól az Úr -; békességre és nem háborúságra gondolok, hogy jövőt és reménységet adjak nektek. Akkor majd segítségül hívtok engem, eljöttök, és imádkoztok hozzám, és én meghallgatlak titeket. Kerestek majd engem és megtaláltok, mert teljes szívetekből kerestek engem."
+                  „Mert én ismerem az én gondolataimat, amelyeket rólatok gondolok – így szól az Úr-; békességre és nem háborúságra gondolok, hogy jövőt és reménységet adjak nektek. Akkor majd segítségül hívtok engem, eljöttök, és imádkoztok hozzám, és én meghallgatlak titeket. Kerestek majd engem és megtaláltok, mert teljes szívetekből kerestek engem."
                 </h2>
                 <p className="text-muted-foreground italic text-lg">— Jeremiás könyve 29. fejezet, 11-13. versek</p>
               </div>
@@ -82,21 +82,13 @@ export default function Mission() {
             <ScrollReveal delay={0.1}>
               <div className="prose prose-lg max-w-none">
                 <p className="text-black-300 text-lg mb-6">
-                  Az Talk csapata azért jött létre, mert hisszük, hogy Isten ma is 
-                  élő és cselekvő. Küldetésünk, hogy olyan alkalmakat teremtsünk, ahol 
-                  emberek megtapasztalhatják Isten jelenlétét, megújulhat a hitük, és 
-                  életre szóló kapcsolatokat építhetnek.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis nunc molestie ex ultricies, vitae ullamcorper justo mattis. Integer congue hendrerit neque. Proin nec est lacinia, faucibus velit in, vestibulum enim. Phasellus nec nisl dapibus arcu dignissim porta.
                 </p>
                 <p className="text-black-300 text-lg mb-6">
-                  Konferenciáink nem csupán rendezvények – ezek olyan találkozási pontok, 
-                  ahol a mennyei érinti a földit. Ahol megtört szívek gyógyulnak, kérdések 
-                  választ kapnak, és új remény születik.
+                  Phasellus nec nisl dapibus arcu dignissim porta. Nunc interdum varius ipsum, vel commodo mi vestibulum sed. In commodo urna a erat hendrerit tincidunt. Nam interdum nibh ac pharetra feugiat. Vestibulum quis lorem ultricies, sagittis leo sed, finibus urna. Fusce lacinia elit a convallis pharetra. Sed odio ipsum, fermentum sit amet accumsan vel, euismod in ligula.
                 </p>
                 <p className="text-black-300 text-lg">
-                  Minden korosztályt és élethelyzetet várunk szeretettel. Legyen szó 
-                  fiatalokról, akik keresik az útjukat, családokról, akik megerősítésre 
-                  vágynak, vagy idősebbekről, akik bölcsességüket szeretnék átadni – 
-                  itt mindenkinek helye van.
+                  Morbi eleifend rhoncus molestie. Sed blandit pulvinar nunc id interdum. Suspendisse at nulla eros. Nunc lobortis, ligula sit amet commodo bibendum, leo tellus ullamcorper dui, eget porta turpis mi quis urna. Integer venenatis ac ipsum ac faucibus. Fusce laoreet ante vitae lobortis tincidunt.
                 </p>
               </div>
             </ScrollReveal>
@@ -154,19 +146,13 @@ export default function Mission() {
             <ScrollReveal delay={0.1}>
               <div className="bg-gradient-to-br from-rose-50 to-amber-50 p-8 rounded-3xl border border-rose-200/50 shadow-lg p-8 sm:p-12 shadow-lg border border-amber-200/50">
                 <p className="text-black-300 text-lg mb-6">
-                  Az Talk 2022-ben indult, amikor egy kis csoport barát úgy 
-                  érezte, hogy szükség van olyan eseményekre, amelyek ötvözik a mély 
-                  tanítást, az őszinte közösséget és a szívből jövő dicsőítést.
+                  Nunc a felis tellus. Morbi facilisis placerat felis eget commodo. Proin pretium non orci sit amet finibus. In eget tempus ligula. Vivamus accumsan maximus risus quis ornare. Nulla neque nulla, convallis ac ex eu, bibendum cursus lorem. Vivamus eget efficitur urna.
                 </p>
                 <p className="text-black-300 text-lg mb-6">
-                  Az első konferenciánk mindössze 50 résztvevővel zajlott egy kis 
-                  imaházban. Ma már évente több száz ember vesz részt programjainkon, 
-                  de a szívünk ugyanaz maradt: szolgálni az embereket és dicsőíteni Istent.
+                  Phasellus nec nisl dapibus arcu dignissim porta. Nunc interdum varius ipsum, vel commodo mi vestibulum sed. In commodo urna a erat hendrerit tincidunt. Nam interdum nibh ac pharetra feugiat. Vestibulum quis lorem ultricies, sagittis leo sed, finibus urna. Fusce lacinia elit a convallis pharetra. Sed odio ipsum, fermentum sit amet accumsan vel, euismod in ligula.
                 </p>
                 <p className="text-black-300 text-lg">
-                  Az elmúlt évtizedben számtalan bizonyságot hallottunk megváltozott 
-                  életekről, helyreállt kapcsolatokról és újjászületett reményről. 
-                  Ezekért a pillanatokért érdemes folytatni.
+                  Morbi eleifend rhoncus molestie. Sed blandit pulvinar nunc id interdum. Suspendisse at nulla eros. Nunc lobortis, ligula sit amet commodo bibendum, leo tellus ullamcorper dui, eget porta turpis mi quis urna. Integer venenatis ac ipsum ac faucibus. Fusce laoreet ante vitae lobortis tincidunt.
                 </p>
               </div>
             </ScrollReveal>
@@ -184,10 +170,7 @@ export default function Mission() {
           <ScrollReveal>
             <h2 className="heading-section text-primary-foreground mb-6">Jövőképünk</h2>
             <p className="text-lg text-primary-foreground/90 max-w-3xl mx-auto">
-              Olyan jövőt képzelünk el, ahol minden magyar városban működik egy élő, 
-              lüktető keresztény közösség. Ahol a fiatalok megtalálják a helyüket, 
-              a családok megerősödnek, és az evangélium mindenkihez eljut. 
-              Ezt a jövőt építjük, lépésről lépésre, konferenciáról konferenciára.
+              Quisque malesuada sollicitudin quam id maximus. Aliquam erat volutpat. Mauris iaculis eget ipsum commodo vulputate. Morbi accumsan libero at urna finibus blandit.
             </p>
           </ScrollReveal>
         </div>
