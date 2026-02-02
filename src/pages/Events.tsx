@@ -184,16 +184,24 @@ function EventCard({ event, isPast = false }: EventCardProps) {
             </div>
           </div>
 
-          {event.registrationUrl && !isPast && (
-            <div className="mb-6">
+          <div className="mb-6">
+            {isPast ? (
+              <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
+                Jelentkezés lezárult
+              </Button>
+            ) : event.registrationUrl ? (
               <a href={event.registrationUrl} target="_blank" rel="noopener noreferrer">
                 <Button variant="default" size="lg" className="w-full">
                   <ExternalLink className="w-4 h-4" />
                   Jelentkezés
                 </Button>
               </a>
-            </div>
-          )}
+            ) : (
+              <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
+                Jelentkezés hamarosan
+              </Button>
+            )}
+          </div>
 
           {event.testimonials && event.testimonials.length > 0 && (
             <div className="border-t border-border pt-6">
