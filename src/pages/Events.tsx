@@ -21,7 +21,7 @@ const events2026 = [
       "Választható workshopok és Talk Caffé",
       "Záró dicsőítés",
     ],
-    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Ablonczy Áron - Zsinati Ifjúsági Iroda vezetője"],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Szabóné László Lilla - KRE HTK tanára"],
     registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSetRS2IuoeUDJvdUzRbp2SBVgSJJix8HknC5TEXQ-EP-Gfy6w/viewform",
   },
   {
