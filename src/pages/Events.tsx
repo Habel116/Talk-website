@@ -1,7 +1,8 @@
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { Calendar, MapPin, Users, Clock, Quote } from "lucide-react";
+import { Calendar, MapPin, Users, Clock, Quote, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import talkkonf2025 from "@/assets/talk-konf-2025.jpg";
 import talkimaej2025 from "@/assets/talk-imaej-2025-2.jpg";
 import talkkonf2026 from "@/assets/talk-konf-2026.JPG";
@@ -21,6 +22,7 @@ const events2026 = [
       "Záró dicsőítés",
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető", "Ablonczy Áron - Zsinati Ifjúsági Iroda vezetője"],
+    registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSetRS2IuoeUDJvdUzRbp2SBVgSJJix8HknC5TEXQ-EP-Gfy6w/viewform",
   },
   {
     id: 2,
@@ -98,8 +100,21 @@ const events2025 = [
   },
 ];
 
+interface Event {
+  id: number;
+  title: string;
+  date: string;
+  location: string;
+  description: string;
+  image: string;
+  program: string[];
+  speakers: string[];
+  registrationUrl?: string;
+  testimonials?: { quote: string; author: string }[];
+}
+
 interface EventCardProps {
-  event: typeof events2026[0] & { testimonials?: { quote: string; author: string }[] };
+  event: Event;
   isPast?: boolean;
 }
 
@@ -168,6 +183,17 @@ function EventCard({ event, isPast = false }: EventCardProps) {
               ))}
             </div>
           </div>
+
+          {event.registrationUrl && !isPast && (
+            <div className="mb-6">
+              <a href={event.registrationUrl} target="_blank" rel="noopener noreferrer">
+                <Button variant="default" size="lg" className="w-full">
+                  <ExternalLink className="w-4 h-4" />
+                  Jelentkezés
+                </Button>
+              </a>
+            </div>
+          )}
 
           {event.testimonials && event.testimonials.length > 0 && (
             <div className="border-t border-border pt-6">
