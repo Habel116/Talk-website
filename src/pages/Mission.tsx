@@ -75,20 +75,32 @@ export default function Mission() {
                 <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-snug mb-8">
                   „Mert én ismerem az én gondolataimat, amelyeket rólatok gondolok – így szól az Úr-; békességre és nem háborúságra gondolok, hogy jövőt és reménységet adjak nektek. Akkor majd segítségül hívtok engem, eljöttök, és imádkoztok hozzám, és én meghallgatlak titeket. Kerestek majd engem és megtaláltok, mert teljes szívetekből kerestek engem."
                 </h2>
-                <p className="text-muted-foreground italic text-lg">— Jeremiás könyve 29. fejezet, 11-13. versek</p>
+                <p className="text-muted-foreground italic text-lg">— Jeremiás könyve 29. fejezet 11-13. versek</p>
               </div>
             </ScrollReveal>
 
             <ScrollReveal delay={0.1}>
               <div className="prose prose-lg max-w-none">
                 <p className="text-black-300 text-lg mb-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis nunc molestie ex ultricies, vitae ullamcorper justo mattis. Integer congue hendrerit neque. Proin nec est lacinia, faucibus velit in, vestibulum enim. Phasellus nec nisl dapibus arcu dignissim porta.
+                  Szeretnénk látni a fiatalok mai nemzedékét, mint akik meghallják Jézus szavát, és
+elfogadják elhívását arra, hogy Istent dicsőítő életet éljenek. Küldetésünk, hogy
+felhangosítsuk Megváltónk üzenetét, és eljuttassuk azt minél több fiatalhoz az
+egyházmegyénk határain belül és kívül egyaránt, mert hisszük, hogy Isten országának
+nincsenek határai.
                 </p>
                 <p className="text-black-300 text-lg mb-6">
-                  Phasellus nec nisl dapibus arcu dignissim porta. Nunc interdum varius ipsum, vel commodo mi vestibulum sed. In commodo urna a erat hendrerit tincidunt. Nam interdum nibh ac pharetra feugiat. Vestibulum quis lorem ultricies, sagittis leo sed, finibus urna. Fusce lacinia elit a convallis pharetra. Sed odio ipsum, fermentum sit amet accumsan vel, euismod in ligula.
+                  Jézus jelenléte életeket formál át! Küldetésünknek érezzük, hogy a fiatalokat Krisztusnak
+ebbe az életformáló jelenlétébe hívjuk meg, és segítsünk nekik kapcsolódni Megváltójukhoz
+a lehető legegyszerűbb és legtermészetesebb módon. Mint Jézus egykori tanítványai,
+vágyunk arra, hogy megéljük a fiatalokkal, hogy egymást hívják, illetve hozzák az Úrral
+való közösségbe, és együtt tapasztalják meg Isten kegyelmét, gondviselését és vezetését.
                 </p>
                 <p className="text-black-300 text-lg">
-                  Morbi eleifend rhoncus molestie. Sed blandit pulvinar nunc id interdum. Suspendisse at nulla eros. Nunc lobortis, ligula sit amet commodo bibendum, leo tellus ullamcorper dui, eget porta turpis mi quis urna. Integer venenatis ac ipsum ac faucibus. Fusce laoreet ante vitae lobortis tincidunt.
+                  Hisszük, hogy Jézus Krisztus ránk is bízta missziójának folytatását az életterünk szűkebb és tágabb környezetében
+egyaránt. Engedetlen tanítványok lennénk, ha nem tanítanánk meg másoknak mindazt, amit mi már
+megtanultunk, és nem vonnánk Krisztussal szövetségbe mindazokat, akik vágynak jobban
+megismerni és szolgálni Őt! Motivál bennünket Jézus ígérete, hogy velünk lesz minden nap a világ
+végezetéig, amíg csak végezzük küldetésének nagy parancsát!
                 </p>
               </div>
             </ScrollReveal>
@@ -146,13 +158,28 @@ export default function Mission() {
             <ScrollReveal delay={0.1}>
               <div className="bg-gradient-to-br from-rose-50 to-amber-50 p-8 rounded-3xl border border-rose-200/50 shadow-lg p-8 sm:p-12 shadow-lg border border-amber-200/50">
                 <p className="text-black-300 text-lg mb-6">
-                  Nunc a felis tellus. Morbi facilisis placerat felis eget commodo. Proin pretium non orci sit amet finibus. In eget tempus ligula. Vivamus accumsan maximus risus quis ornare. Nulla neque nulla, convallis ac ex eu, bibendum cursus lorem. Vivamus eget efficitur urna.
+                  2024. januárjában alakult szolgáló csoportunk, melyet TALK néven rövidítünk. A Pápai
+Református Egyházmegye Ifjúsági Szolgálatának a missziói csoportja vagyunk. Tagjaink között vannak lelkipásztorok,
+pedagógusok, ifi vezetők, ifisek, lelkes gyülekezeti tagok. Missziónkban építünk egymás lelkesedésére, kreativitására, lelki ajándékaira,
+tehetségére, erősségeire és áldozatkészségére. Mindannyian aktív gyülekezeti tagok
+vagyunk, akik számára fontos Jézus jelenléte az életünkben. Isten Lelke már formálta a
+szívünket abban, hogy szeretnénk tágabb területen szolgálni az Urat, ezért aztán a
+szolgáló csapat szervezésekor lelkesen mondtunk igent Isten hívására.
                 </p>
                 <p className="text-black-300 text-lg mb-6">
-                  Phasellus nec nisl dapibus arcu dignissim porta. Nunc interdum varius ipsum, vel commodo mi vestibulum sed. In commodo urna a erat hendrerit tincidunt. Nam interdum nibh ac pharetra feugiat. Vestibulum quis lorem ultricies, sagittis leo sed, finibus urna. Fusce lacinia elit a convallis pharetra. Sed odio ipsum, fermentum sit amet accumsan vel, euismod in ligula.
+                  A TALK egy rövidítés, mely két fontos üzenetet fogalmaz meg számunkra. Egyrészt jelenti
+a találkozásokat Istennel és egymással. Szolgálatunk indulásakor mindannyiunk számára
+fontos célként fogalmazódott meg, hogy ezekre a találkozásokra fókuszáljunk. Másrészt
+pedig a rövidítés angol szóként értelmezve hordozza magában a beszélgetést, amely szerves
+része minden életre szóló találkozásnak. Az Istennel való beszélgetés formál minket a
+legintenzívebb és legszemélyesebb módon. Az egymással folytatott beszélgetésekben
+pedig megélhetjük, hogyan növekedhetünk egymás hite által is.
                 </p>
                 <p className="text-black-300 text-lg">
-                  Morbi eleifend rhoncus molestie. Sed blandit pulvinar nunc id interdum. Suspendisse at nulla eros. Nunc lobortis, ligula sit amet commodo bibendum, leo tellus ullamcorper dui, eget porta turpis mi quis urna. Integer venenatis ac ipsum ac faucibus. Fusce laoreet ante vitae lobortis tincidunt.
+                  Szolgálatunknak eddig két fő pillére alakult ki, amely a tavaszi nagy konferenciát és az
+őszi meghittebb imaéjjelt jelenti. Hálásak vagyunk Istennek, hogy használ bennünket
+fiatalok megtérésében, lelki növekedésében, szolgálatba állításában, a jövő egyházának
+építésében! Legyen áldott ezért az Ő neve!
                 </p>
               </div>
             </ScrollReveal>
@@ -170,7 +197,7 @@ export default function Mission() {
           <ScrollReveal>
             <h2 className="heading-section text-primary-foreground mb-6">Jövőképünk</h2>
             <p className="text-lg text-primary-foreground/90 max-w-3xl mx-auto">
-              Quisque malesuada sollicitudin quam id maximus. Aliquam erat volutpat. Mauris iaculis eget ipsum commodo vulputate. Morbi accumsan libero at urna finibus blandit.
+              Álmunk egy olyan egész egyházmegyét átölelő ifjúsági közösség, amely teljes szívből dicsőíti Istent, és ég az szíve más fiatalokért. Imádkozunk azért, hogy gyülekezeteink ifjúsági csoportjai megújuljanak, és élesztőként legyenek jelen a helyi gyülekezeteikben.
             </p>
           </ScrollReveal>
         </div>
