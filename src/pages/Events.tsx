@@ -111,6 +111,7 @@ interface Event {
   program: string[];
   speakers: string[];
   registrationUrl?: string;
+  detailsUrl?: string;
   testimonials?: { quote: string; author: string }[];
 }
 
