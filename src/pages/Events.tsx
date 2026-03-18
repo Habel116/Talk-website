@@ -204,7 +204,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
               </Button>
             )}
             {event.detailsUrl && (
-              <Link to={event.detailsUrl}>
+              <Link to={event.detailsUrl} className="mt-3 block">
                 <Button variant="default" size="lg" className="w-full">
                   <Info className="w-4 h-4" />
                   Részletek
