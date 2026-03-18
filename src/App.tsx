@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Events from "./pages/Events";
+import EventDetails2026 from "./pages/EventDetails2026";
 import Gallery from "./pages/Gallery";
 import Team from "./pages/Team";
 import Mission from "./pages/Mission";
