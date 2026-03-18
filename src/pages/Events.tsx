@@ -186,8 +186,8 @@ function EventCard({ event, isPast = false }: EventCardProps) {
             </div>
           </div>
 
-          <div className="mb-6">
-            {isPast ? (
+          <div className="mb-6 space-y-3">
+            {isPast || event.detailsUrl ? (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés lezárult
               </Button>
@@ -202,6 +202,14 @@ function EventCard({ event, isPast = false }: EventCardProps) {
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés hamarosan
               </Button>
+            )}
+            {event.detailsUrl && (
+              <Link to={event.detailsUrl}>
+                <Button variant="default" size="lg" className="w-full">
+                  <Info className="w-4 h-4" />
+                  Részletek
+                </Button>
+              </Link>
             )}
           </div>
 
