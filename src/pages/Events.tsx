@@ -23,7 +23,7 @@ const events2026 = [
       "Záró dicsőítés",
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető", "Szabóné László Lilla - KRE HTK tanára"],
-    registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSetRS2IuoeUDJvdUzRbp2SBVgSJJix8HknC5TEXQ-EP-Gfy6w/viewform",
+    detailsUrl: "/esemenyek/talalkazasok-2026",
   },
   {
     id: 2,
