@@ -1,7 +1,8 @@
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { Calendar, MapPin, Users, Clock, Quote, ExternalLink } from "lucide-react";
+import { Calendar, MapPin, Users, Clock, Quote, ExternalLink, Info } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import talkkonf2025 from "@/assets/talk-konf-2025.jpg";
 import talkimaej2025 from "@/assets/talk-imaej-2025-2.jpg";
@@ -22,7 +23,7 @@ const events2026 = [
       "Záró dicsőítés",
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető", "Szabóné László Lilla - KRE HTK tanára"],
-    registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSetRS2IuoeUDJvdUzRbp2SBVgSJJix8HknC5TEXQ-EP-Gfy6w/viewform",
+    detailsUrl: "/esemenyek/talalkazasok-2026",
   },
   {
     id: 2,
@@ -110,6 +111,7 @@ interface Event {
   program: string[];
   speakers: string[];
   registrationUrl?: string;
+  detailsUrl?: string;
   testimonials?: { quote: string; author: string }[];
 }
 
@@ -184,8 +186,8 @@ function EventCard({ event, isPast = false }: EventCardProps) {
             </div>
           </div>
 
-          <div className="mb-6">
-            {isPast ? (
+          <div className="mb-6 space-y-3">
+            {isPast || event.detailsUrl ? (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés lezárult
               </Button>
@@ -200,6 +202,14 @@ function EventCard({ event, isPast = false }: EventCardProps) {
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés hamarosan
               </Button>
+            )}
+            {event.detailsUrl && (
+              <Link to={event.detailsUrl}>
+                <Button variant="default" size="lg" className="w-full">
+                  <Info className="w-4 h-4" />
+                  Részletek
+                </Button>
+              </Link>
             )}
           </div>
 
