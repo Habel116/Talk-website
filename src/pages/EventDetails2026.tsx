@@ -9,9 +9,10 @@ export default function EventDetails2026() {
       <section className="pt-32 pb-20 bg-secondary">
         <div className="container-custom">
           <ScrollReveal>
-            <h1 className="heading-display text-foreground text-center mb-12">
+            <h1 className="heading-display text-foreground text-center mb-4">
               Találkozások Konferencia 2026
             </h1>
+            <p className="text-body text-center mb-12">2026. március 21.</p>
           </ScrollReveal>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <ScrollReveal>
