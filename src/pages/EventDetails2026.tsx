@@ -2,6 +2,8 @@ import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import talkLilla from "@/assets/talk_lilla.jpg";
 import talkProgram from "@/assets/talk_program.jpg";
+import foldszint from "@/assets/foldszint.jpg";
+import emelet from "@/assets/emelet.jpg";
 
 export default function EventDetails2026() {
   return (
