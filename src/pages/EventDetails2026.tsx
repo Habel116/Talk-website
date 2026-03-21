@@ -2,6 +2,8 @@ import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import talkLilla from "@/assets/talk_lilla.jpg";
 import talkProgram from "@/assets/talk_program.jpg";
+import foldszint from "@/assets/foldszint.jpg";
+import emelet from "@/assets/emelet.jpg";
 
 export default function EventDetails2026() {
   return (
@@ -27,6 +29,28 @@ export default function EventDetails2026() {
                 src={talkProgram}
                 alt="Találkozások Konferencia 2026 program"
                 className="w-full rounded-2xl shadow-lg"
+              />
+            </ScrollReveal>
+          </div>
+
+          <ScrollReveal>
+            <h2 className="heading-section text-foreground text-center mt-16 mb-8">
+              Helyszínrajz
+            </h2>
+          </ScrollReveal>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <ScrollReveal>
+              <img
+                src={foldszint}
+                alt="Földszint helyszínrajz"
+                className="w-full rounded-2xl shadow-lg bg-white p-4"
+              />
+            </ScrollReveal>
+            <ScrollReveal>
+              <img
+                src={emelet}
+                alt="I. emelet helyszínrajz"
+                className="w-full rounded-2xl shadow-lg bg-white p-4"
               />
             </ScrollReveal>
           </div>
