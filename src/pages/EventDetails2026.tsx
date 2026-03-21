@@ -35,7 +35,7 @@ export default function EventDetails2026() {
 
           <ScrollReveal>
             <h2 className="heading-section text-foreground text-center mt-16 mb-8">
-              Helyszínrajz
+              Térkép
             </h2>
           </ScrollReveal>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
