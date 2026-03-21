@@ -32,6 +32,28 @@ export default function EventDetails2026() {
               />
             </ScrollReveal>
           </div>
+
+          <ScrollReveal>
+            <h2 className="heading-section text-foreground text-center mt-16 mb-8">
+              Helyszínrajz
+            </h2>
+          </ScrollReveal>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <ScrollReveal>
+              <img
+                src={foldszint}
+                alt="Földszint helyszínrajz"
+                className="w-full rounded-2xl shadow-lg bg-white p-4"
+              />
+            </ScrollReveal>
+            <ScrollReveal>
+              <img
+                src={emelet}
+                alt="I. emelet helyszínrajz"
+                className="w-full rounded-2xl shadow-lg bg-white p-4"
+              />
+            </ScrollReveal>
+          </div>
         </div>
       </section>
     </Layout>
