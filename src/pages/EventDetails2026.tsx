@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
+import { SEO } from "@/components/shared/SEO";
 import talkLilla from "@/assets/talk_lilla.jpg";
 import talkProgram from "@/assets/talk_program.jpg";
 import foldszint from "@/assets/foldszint.jpg";
