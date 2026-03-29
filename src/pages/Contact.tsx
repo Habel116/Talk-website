@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/shared/SEO";
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { Mail, Phone, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
