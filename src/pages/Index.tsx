@@ -37,7 +37,7 @@ export default function Index() {
           "@type": "Organization",
           "name": "Talkifi - Találkozások Konferencia",
           "alternateName": "Talkifi",
-          "url": "https://talalkazasok.hu",
+          "url": "https://talkifi.hu",
           "description": "Keresztény ifjúsági konferenciák és közösségi események szervezése Pápán.",
           "sameAs": []
         })}</script>

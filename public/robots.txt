@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://talalkazasok.hu/sitemap.xml
+Sitemap: https://talkifi.hu/sitemap.xml

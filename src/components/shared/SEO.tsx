@@ -10,7 +10,7 @@ export function SEO({ title, description, path = "" }: SEOProps) {
   const siteName = "Talkifi - Találkozások Konferencia";
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
   const desc = description || "Talkifi – keresztény ifjúsági konferenciák és közösségi események Pápán. Dicsőítés, tanítás, közösség.";
-  const url = `https://talalkazasok.hu${path}`;
+  const url = `https://talkifi.hu${path}`;
 
   return (
     <Helmet>
