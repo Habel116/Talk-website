@@ -1,4 +1,5 @@
 import { Layout } from "@/components/layout/Layout";
+import { SEO } from "@/components/shared/SEO";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { Heart, Users, BookOpen, Sparkles } from "lucide-react";
 
