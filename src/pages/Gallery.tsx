@@ -66,6 +66,7 @@ export default function Gallery() {
 
   return (
     <Layout>
+      <SEO title="Galéria" description="Talkifi konferenciák és események képekben. Nézd meg korábbi találkozóink legjobb pillanatait!" path="/galeria" />
       {/* Hero */}
       <section className="pt-40 pb-6 bg-gradient-to-b from-secondary to-background relative overflow-hidden">
         {/* Decorative blob elements */}

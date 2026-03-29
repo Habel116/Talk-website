@@ -243,6 +243,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
 export default function Events() {
   return (
     <Layout>
+      <SEO title="Események" description="Talkifi keresztény ifjúsági konferenciák és közösségi események. Tekintsd meg közelgő és múltbeli eseményeinket!" path="/esemenyek" />
       <section className="pt-32 pb-10 bg-creamy relative overflow-hidden">
         {/* Decorative blob elements */}
         <div className="absolute top-16 -right-12 w-28 h-28 md:w-56 md:h-56 bg-gradient-to-bl from-accent/40 to-secondary/30 rounded-[45%_55%_60%_40%/50%_45%_55%_50%] shadow-[0_22px_45px_-12px_rgba(0,0,0,0.1)]" />

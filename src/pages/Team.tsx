@@ -143,6 +143,7 @@ const teamMembers = [
 export default function Team() {
   return (
     <Layout>
+      <SEO title="Csapat" description="Ismerd meg a Talkifi szervező csapatát, akik szenvedéllyel szolgálnak a fiatalokért." path="/csapat" />
       {/* Hero */}
       <section className="pt-32 pb-2 bg-gradient-to-b from-secondary to-background relative overflow-hidden">
         {/* Decorative blob elements */}

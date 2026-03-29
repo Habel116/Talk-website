@@ -9,6 +9,7 @@ import emelet from "@/assets/emelet.jpg";
 export default function EventDetails2026() {
   return (
     <Layout>
+      <SEO title="Találkozások Konferencia 2026" description="Talkifi Találkozások Konferencia 2026. március 21. Pápa – program, térkép és részletek." path="/esemenyek/talalkazasok-2026" />
       <section className="pt-32 pb-20 bg-secondary">
         <div className="container-custom">
           <ScrollReveal>

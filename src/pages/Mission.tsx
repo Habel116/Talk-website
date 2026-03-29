@@ -41,6 +41,7 @@ const values = [
 export default function Mission() {
   return (
     <Layout>
+      <SEO title="Küldetésünk" description="A Talkifi küldetése: megismertetni Jézus szeretetét fiatalokkal konferenciákon és közösségi alkalmakon keresztül." path="/kuldetesunk" />
       {/* Hero */}
       <section className="pt-32 pb-6 bg-background relative overflow-hidden">
         {/* Decorative blob elements with shadow */}
