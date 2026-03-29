@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { SEO } from "@/components/shared/SEO";
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
