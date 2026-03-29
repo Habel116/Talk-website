@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
+import { SEO } from "@/components/shared/SEO";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Calendar, MapPin, Users, Clock, Quote, ExternalLink, Info } from "lucide-react";
 import { Link } from "react-router-dom";
