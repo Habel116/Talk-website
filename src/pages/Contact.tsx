@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/shared/SEO";
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { Mail, Phone, MapPin, Facebook, Instagram, ExternalLink } from "lucide-react";
@@ -56,6 +57,7 @@ const socialLinks = [
 export default function Contact() {
   return (
     <Layout>
+      <SEO title="Kapcsolat" description="Lépj kapcsolatba a Talkifi csapatával! Írj nekünk vagy kövess minket a közösségi médiában." path="/kapcsolat" />
       {/* Hero */}
       <section className="pt-32 pb-6 bg-gradient-to-br from-secondary via-accent/30 to-secondary relative overflow-hidden">
         {/* Decorative blob elements with shadow */}

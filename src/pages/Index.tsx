@@ -4,6 +4,8 @@ import { Calendar, Users, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
+import { SEO } from "@/components/shared/SEO";
+import { Helmet } from "react-helmet-async";
 import heroImage from "@/assets/hero_image.jpg";
 import eventImage from "@/assets/event-picture.jpg";
 
@@ -28,7 +30,18 @@ const features = [
 export default function Index() {
   return (
     <Layout>
-      {/* Hero Section */}
+      <SEO path="/" />
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Talkifi - Találkozások Konferencia",
+          "alternateName": "Talkifi",
+          "url": "https://talalkazasok.hu",
+          "description": "Keresztény ifjúsági konferenciák és közösségi események szervezése Pápán.",
+          "sameAs": []
+        })}</script>
+      </Helmet>
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">

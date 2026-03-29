@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
+import { SEO } from "@/components/shared/SEO";
 import talkLilla from "@/assets/talk_lilla.jpg";
 import talkProgram from "@/assets/talk_program.jpg";
 import foldszint from "@/assets/foldszint.jpg";
@@ -8,6 +9,7 @@ import emelet from "@/assets/emelet.jpg";
 export default function EventDetails2026() {
   return (
     <Layout>
+      <SEO title="Találkozások Konferencia 2026" description="Talkifi Találkozások Konferencia 2026. március 21. Pápa – program, térkép és részletek." path="/esemenyek/talalkazasok-2026" />
       <section className="pt-32 pb-20 bg-secondary">
         <div className="container-custom">
           <ScrollReveal>
