@@ -282,7 +282,7 @@ export default function Events() {
         <div className="container-custom">
             <SectionHeading
               title="2025-ös események"
-              subtitle="Korábbi eseményeink archívuma"
+              subtitle="Korábbi eseményeink"
               titleClassName="text-secondary"
               subtitleClassName="text-secondary/80"
             />
