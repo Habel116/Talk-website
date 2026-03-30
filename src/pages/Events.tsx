@@ -272,7 +272,7 @@ export default function Events() {
           />
           <div className="grid lg:grid-cols-2 gap-8">
             {events2026.map((event) => (
-              <EventCard key={event.id} event={event} />
+              <EventCard key={event.id} event={event} isPast={event.id === 1} />
             ))}
           </div>
         </div>
@@ -282,7 +282,7 @@ export default function Events() {
         <div className="container-custom">
             <SectionHeading
               title="2025-ös események"
-              subtitle="Korábbi eseményeink archívuma"
+              subtitle="Korábbi eseményeink"
               titleClassName="text-secondary"
               subtitleClassName="text-secondary/80"
             />
