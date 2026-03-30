@@ -53,7 +53,7 @@ const galleries = {
 };
 
 export default function Gallery() {
-  const [selectedYear, setSelectedYear] = useState<"2025" | "2024">("2025");
+  const [selectedYear, setSelectedYear] = useState<"2026" | "2025" | "2024">("2026");
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
