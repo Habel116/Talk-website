@@ -95,7 +95,7 @@ export default function Gallery() {
                 Képeink megörökítik a közösség, a dicsőítés és az együtt töltött idő szépségét.
               </p>
               <p className="text-sm text-muted-foreground mt-3">
-                Fotók: Janus Attila
+                Fotók: Janus Attila, Hajdú Emese
               </p>
             </div>
           </ScrollReveal>
