@@ -18,8 +18,22 @@ import gallery324 from "@/assets/gallery-3-24.JPG";
 import gallery424 from "@/assets/gallery-4-24.JPG";
 import gallery524 from "@/assets/gallery-5-24.JPG";
 import gallery624 from "@/assets/gallery-6-24.JPG";
+import gallery126 from "@/assets/gallery-1-26.jpg";
+import gallery226 from "@/assets/gallery-2-26.jpg";
+import gallery326 from "@/assets/gallery-3-26.jpg";
+import gallery426 from "@/assets/gallery-4-26.jpg";
+import gallery526 from "@/assets/gallery-5-26.jpg";
+import gallery626 from "@/assets/gallery-6-26.jpg";
 
 const galleries = {
+  "2026": [
+    { src: gallery126, alt: "Isten gyermeke vagyok", caption: "" },
+    { src: gallery226, alt: "Dicsőítés a színpadon", caption: "" },
+    { src: gallery326, alt: "Közösség", caption: "" },
+    { src: gallery426, alt: "Előadás", caption: "" },
+    { src: gallery526, alt: "Kerekasztal beszélgetés", caption: "" },
+    { src: gallery626, alt: "Szabadidő", caption: "" },
+  ],
   "2025": [
     { src: gallery125, alt: "Kiscsoportos beszélgetés", caption: "" },
     { src: gallery225, alt: "Előadás a konferencián", caption: "" },
