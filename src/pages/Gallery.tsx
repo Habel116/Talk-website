@@ -94,6 +94,9 @@ export default function Gallery() {
                 Pillants bele korábbi eseményeink hangulatába! 
                 Képeink megörökítik a közösség, a dicsőítés és az együtt töltött idő szépségét.
               </p>
+              <p className="text-sm text-muted-foreground mt-3">
+                Fotók: Janus Attila
+              </p>
             </div>
           </ScrollReveal>
         </div>
