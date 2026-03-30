@@ -108,7 +108,7 @@ export default function Gallery() {
           {/* Year Tabs */}
           <ScrollReveal>
             <div className="flex justify-center gap-4 mb-12">
-              {(Object.keys(galleries) as Array<"2025" | "2024">).map((year) => (
+              {(Object.keys(galleries) as Array<"2026" | "2025" | "2024">).map((year) => (
                 <button
                   key={year}
                   onClick={() => setSelectedYear(year)}
