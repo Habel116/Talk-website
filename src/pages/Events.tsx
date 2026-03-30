@@ -272,7 +272,7 @@ export default function Events() {
           />
           <div className="grid lg:grid-cols-2 gap-8">
             {events2026.map((event) => (
-              <EventCard key={event.id} event={event} />
+              <EventCard key={event.id} event={event} isPast={event.id === 1} />
             ))}
           </div>
         </div>
