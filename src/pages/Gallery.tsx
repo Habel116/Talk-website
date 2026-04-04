@@ -111,7 +111,7 @@ export default function Gallery() {
       </section>
 
       {/* Gallery Section */}
-      <section className="section-padding bg-background relative overflow-hidden">
+      <section className="pt-8 pb-16 md:pt-12 md:pb-24 bg-background relative overflow-hidden">
         {/* Decorative blob elements */}
         <div className="absolute -top-10 -left-16 w-30 h-30 md:w-60 md:h-60 bg-gradient-to-br from-secondary/40 to-accent/25 rounded-[50%_50%_40%_60%/40%_50%_50%_60%] shadow-[0_20px_42px_-12px_rgba(0,0,0,0.08)]" />
         <div className="absolute bottom-20 -right-12 w-26 h-26 md:w-52 md:h-52 bg-gradient-to-tl from-accent/30 to-secondary/35 rounded-[40%_60%_55%_45%/55%_45%_55%_45%] shadow-[0_16px_36px_-10px_rgba(0,0,0,0.06)]" />
