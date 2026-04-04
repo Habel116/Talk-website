@@ -149,6 +149,19 @@ export default function Gallery() {
                 </button>
               ))}
             </div>
+            {selectedYear === "2026" && (
+              <p className="text-center text-sm text-muted-foreground mt-6">
+                További képekért látogass el a{" "}
+                <a
+                  href="https://drive.google.com/drive/folders/11X8d3kbAN-AFeXxYVSu3s0LEeu21G1jU?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline hover:text-primary/80 transition-colors"
+                >
+                  Google Drive galériánkba →
+                </a>
+              </p>
+            )}
           </ScrollReveal>
         </div>
       </section>
