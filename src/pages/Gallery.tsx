@@ -97,6 +97,14 @@ export default function Gallery() {
               <p className="text-sm text-muted-foreground mt-3">
                 Fotók: Janus Attila, Hajdú Emese
               </p>
+              <a
+                href="https://drive.google.com/drive/folders/11X8d3kbAN-AFeXxYVSu3s0LEeu21G1jU?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-primary text-primary-foreground rounded-full font-medium text-sm hover:bg-primary/90 transition-colors"
+              >
+                📸 További képek megtekintése →
+              </a>
             </div>
           </ScrollReveal>
         </div>
