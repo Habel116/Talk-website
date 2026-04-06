@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Force HTTPS redirect -->
+    <script>
+      if (location.hostname === 'talkifi.hu' && location.protocol !== 'https:') {
+        location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+      }
+    </script>
+
     <title>Talkifi - Találkozások Konferencia | Keresztény Ifjúsági Közösség</title>
     <meta name="description" content="Talkifi – Találkozások Konferencia: keresztény ifjúsági konferenciák és közösségi események Pápán. Dicsőítés, tanítás, közösség. Csatlakozz hozzánk!" />
     <meta name="author" content="Talkifi - Találkozások Konferencia" />
@@ -12,19 +20,19 @@
     <meta property="og:description" content="Talkifi – keresztény ifjúsági konferenciák és közösségi események Pápán. Dicsőítés, tanítás, közösség." />
     <meta property="og:site_name" content="Talkifi" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/hero_image.jpg" />
+    <meta property="og:image" content="https://talkifi.hu/hero_image.jpg" />
     <meta property="og:locale" content="hu_HU" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Talkifi - Találkozások Konferencia | Keresztény Ifjúsági Közösség" />
     <meta name="twitter:description" content="Talkifi – keresztény ifjúsági konferenciák és közösségi események Pápán. Dicsőítés, tanítás, közösség." />
-    <meta name="twitter:image" content="/hero_image.jpg" />
+    <meta name="twitter:image" content="https://talkifi.hu/hero_image.jpg" />
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://talkifi.hu/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://talkifi.hu/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://talkifi.hu/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://talkifi.hu/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://talkifi.hu/favicon.ico" />
     <link rel="canonical" href="https://talkifi.hu" />
   </head>
 
