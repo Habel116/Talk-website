@@ -6,7 +6,6 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 import barni from "@/assets/team/BognarBarnabas-scaled.jpg";
 import lilla from "@/assets/team/BognarLilla.jpg";
 import gyongyi from "@/assets/team/FeketeGyongyi.jpg";
-import linda from "@/assets/team/GuoLinda.jpeg";
 import abel from "@/assets/team/HajduAbel.jpeg";
 import botond from "@/assets/team/HajduBotond-scaled.jpg";
 import hemese from "@/assets/team/HajduEmese.jpg";
@@ -14,7 +13,6 @@ import ferenc from "@/assets/team/HajduFerenc-scaled.jpg";
 import emi from "@/assets/team/HajduneEmi2.jpg";
 import magdi from "@/assets/team/HegeFerencneMagdi.jpg";
 import pal from "@/assets/team/HegePal.jpg";
-import hajni from "@/assets/team/HuiniGuo.jpg";
 import flora from "@/assets/team/KerteszFloraJPG.jpg";
 import zsofi from "@/assets/team/KerteszZsofi-scaled.jpg";
 import eszter from "@/assets/team/KirosEszter-scaled.jpg";
@@ -22,6 +20,9 @@ import kemese from "@/assets/team/KohanEmese.jpeg";
 import greta from "@/assets/team/LamportGreta.jpg";
 import tamas from "@/assets/team/PulaTamasDaniel.jpg";
 import zalan from "@/assets/team/VasZalanKende2.jpg";
+import fruzsi from "@/assets/team/KalmanFruzsi.jpeg";
+import lili from "@/assets/team/SzalaiLili.jpeg";
+import julcsi from "@/assets/team/GecseiJulcsi.jpg";
 
 const teamMembers = [
   {
@@ -43,10 +44,10 @@ const teamMembers = [
     bio: "Fekete Gyöngyi vagyok, velem majd az információs pontnál, kávésaroknál találkozhattok. Azért jelentkeztem a csapatba, mert szeretném, hogy egy szeretetteljes közösség alakuljon ki.  Szeretek a természetben kirándulni, fényképezni, olvasni. Lelkesen várom veletek az alkalmainkat, mivel hiszem, hogy együtt, közösen építhetjük Isten országát.",
   },
   {
-    name: "Guo Huini",
+    name: "Gecsei Júlia",
     role: "",
-    image: hajni,
-    bio: "Guo Huini vagyok, de mindenki csak Hajninak szólít az egyszerűség kedvéért. 😀 Nagyon örülök, hogy a szervező csapat részese lehetek, és a saját ifinken kívül is vállalhatok a fiatalokért szolgálatot. Most a „kreatív csapat” tagja vagyok, akik a dekorációkat készítik el az eseményre. Egyébként építészmérnök vagyok, tavaly júliusban szereztem meg a diplomám. Szabadidőmben szeretek zenélni, olvasni és festeni. Várom már, hogy találkozhassak Veletek!",
+    image: julcsi,
+    bio: "Gecsei Júlia vagyok, a Győr-Szabadhegyi Gyülekezet tagja és az ifjúság aktív résztvevője. Nagyon szeretek közösségben lenni, új embereket megismerni és olyan beszélgetéseket folytatni, amelyek közelebb visznek Istenhez. Hiszem, hogy Ő mindenkit személyesen hív magához, és remélem, hogy a szolgálatunk által ezt mások is átélhetik.",
   },
   {
     name: "Hajdú Ábel",
@@ -91,16 +92,16 @@ const teamMembers = [
     bio: "Hege Pál vagyok Csetényből. Az Oázis Worship hegedüse és a csetényi ifi lelkes tagja. Hálás vagyok az Úrnak, hogy megváltott és tenyerén hordoz. Szeretném, ha minél több fiatal átélné ezt a csodálatos életre szóló élményt.",
   },
   {
-    name: "Guo Linda",
+    name: "Kálmán Fruzsina",
     role: "",
-    image: linda,
-    bio: "Guo Linda vagyok. A Győr- Szabadhegyi Református Egyházközségbe járok. A regisztrációnál találkozhattok velem, de amúgy a dekoráció megvalósításában segítek. Azért vállaltam szolgálatot, hogy minél több velem egykorú megismerhesse Isten igéjét és együtt dicsérhessük az ő nevét. Ezenkívül nagyon szeretek rajzolni és olvasni.",
+    image: fruzsi,
+    bio: "Kálmán Fruzsi vagyok! A csetényi ifi és Talk csapat lelkes tagja. A motivációm és célom, hogy minél több fiatalnak tudjak segíteni Isten megismerésében és követésében.",
   },
   {
     name: "Kertész Flóra",
     role: "",
     image: flora,
-    bio: "Kertész Flóra vagyok, 15 éves gimnazista. Szeretek zongorázni, nevetni, a barátaimmal lenni, keresztény közösségbe járni. Örömmel veszek részt olyan közösség építésében, ahol őszintén beszélhetünk Istenről, önmagukról, emberi kapcsolatainkról.",
+    bio: "Kertész Flóra vagyok, 17 éves gimnazista. Szeretek zongorázni, nevetni, a barátaimmal lenni, keresztény közösségbe járni. Örömmel veszek részt olyan közösség építésében, ahol őszintén beszélhetünk Istenről, önmagukról, emberi kapcsolatainkról.",
   },
   {
     name: "Kertész Zsófi",
@@ -131,6 +132,12 @@ const teamMembers = [
     role: "",
     image: tamas,
     bio: "Pula Tamás Dániel vagyok a Pápai Református Teológiai Akadémia hallgatója. Közel áll hozzám a magyar néphagyomány minden tere. A népzene és a néptánc kifejezetten. Szeretek táncházakat tartani/részt venni benne. Számomra nagyon fontos, hogy megfelelő bizalom kialakulhasson ember-ember között is. Hiszem, hogy szavakkal meg lehet változtatni emberek életét, és közelebb vinni őket a mindenható Istenhez.",
+  },
+  {
+    name: "Szalai Lili",
+    role: "",
+    image: lili,
+    bio: "Szalai Lili Angyalka vagyok, 14 éves, általános sulis. A csetényi gyülekezet és ifi lelkes tagja vagyok. Azèrt vállaltam szolgálatot, hogy megmutassam a korosztályomnak, hogy Istennel az úton sokkal jobb élet vár ránk.",
   },
   {
     name: "Vas Zalán Kende",
