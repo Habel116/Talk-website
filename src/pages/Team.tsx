@@ -23,7 +23,9 @@ import zalan from "@/assets/team/VasZalanKende2.jpg";
 import fruzsi from "@/assets/team/KalmanFruzsi.jpeg";
 import lili from "@/assets/team/SzalaiLili.jpeg";
 import julcsi from "@/assets/team/GecseiJulcsi.jpg";
-
+import barnus from "@/assets/team/HajduBarnus.jpg";
+import zoti from "@/assets/team/VasZotmund.jpg";
+import kristof from "@/assets/team/VargaKristof.jpeg";
 const teamMembers = [
   {
     name: "Bognár Barnabás",
@@ -54,6 +56,12 @@ const teamMembers = [
     role: "",
     image: abel,
     bio: "Hajdú Ábel vagyok, lelkes csetényi fiatal. Az Oázis Worship dobosa, a csapat buzgó tagja! Fiatalként szívügyem, hogy a korombelieket Istenhez vezessem, hogy ők is megtapasztalják Urunk végtelen kegyelmét és szeretetét. Velem majd a társas-sarokban, vagy akár a színpadon találkozhattok!",
+  },
+  {
+    name: "Hajdú Barnabás",
+    role: "",
+    image: barnus,
+    bio: "Hajdú Barnabás vagyok, a csetényi ifi és gyülekezet jókedvű és szolgáló tagja. Budapesten református gimibe járok. Nagyon szeretek basszusgitározni, így tudom erősíteni az Oázis Worship basszusát. A TALK csapat tagjaként szeretnék másokat Istenhez közelebb vezetni, ezáltal a saját hitemet is erősíteni.",
   },
   {
     name: "Hajdú Botond",
@@ -101,7 +109,7 @@ const teamMembers = [
     name: "Kertész Flóra",
     role: "",
     image: flora,
-    bio: "Kertész Flóra vagyok, 17 éves gimnazista. Szeretek zongorázni, nevetni, a barátaimmal lenni, keresztény közösségbe járni. Örömmel veszek részt olyan közösség építésében, ahol őszintén beszélhetünk Istenről, önmagukról, emberi kapcsolatainkról.",
+    bio: "Kertész Flóra vagyok, 18 éves gimnazista. Szeretek zongorázni, nevetni, a barátaimmal lenni, keresztény közösségbe járni. Örömmel veszek részt olyan közösség építésében, ahol őszintén beszélhetünk Istenről, önmagukról, emberi kapcsolatainkról.",
   },
   {
     name: "Kertész Zsófi",
@@ -140,10 +148,22 @@ const teamMembers = [
     bio: "Szalai Lili Angyalka vagyok, 14 éves, általános sulis. A csetényi gyülekezet és ifi lelkes tagja vagyok. Azèrt vállaltam szolgálatot, hogy megmutassam a korosztályomnak, hogy Istennel az úton sokkal jobb élet vár ránk.",
   },
   {
+    name: "Varga Kristóf",
+    role: "",
+    image: kristof,
+    bio: "Varga Kristóf vagyok, informatikus egyetemi hallgató, a csetényi gyülekezet lelkes és aktív tagja, valamint újonc TALK szervező. Azért jelentkeztem a csapatba, mert szeretnék részt venni abban a nemes küldetésben, hogy minél több fiatalt közelebb vigyünk az élő Istenhez. Hiszem, hogy életünkkel lámpásként világíthatunk a sötétben, és Isten dicsőségét tükrözhetjük mások felé. A TALK alkalmain garantált a sok lámpás, és legfőképp a lelki feltöltődés.",
+  },
+  {
     name: "Vas Zalán Kende",
     role: "",
     image: zalan,
     bio: "Vas Zalán Kende vagyok, 21 éves egyetemista, a csetényi református ifi egyik régi motorosa, a helyi baptista gyülekezet dicsőítő csapatának háttérmunkása és gitárosa, illetve az Oázis Worshipben is szoktam vendégeskedni gitárosként. Vágyam, hogy zenémmel és életemmel közelebb vigyem a fiatalokat Istenhez.",
+  },
+  {
+    name: "Vas Zotmund Örkény",
+    role: "",
+    image: zoti,
+    bio: "Vas Zotmund Örkény vagyok, a csetényi református ifi törzsgyökeres tagja, a helyi baptista gyülekezet tagja, annak dicsőítő csapatának, illetve az Oázis Worship énekese. A Mindenható az életemben a sporton keresztül mutatja meg az Ő jóságát. Hiszem, hogy hatással tudok lenni emberekre, ezáltal közelebb vezetni őket a Teremtőhöz.",
   },
 ];
 
