@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SEO } from "@/components/shared/SEO";
-import posterAsset from "@/assets/imaejjel2026_a4.png.asset.json";
+import posterAsset from "@/assets/imaejjel2026_a4.png";
 
 export default function EventDetailsImaejjel2026() {
   return (
