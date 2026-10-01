@@ -29,7 +29,7 @@ const events2026 = [
   {
     id: 2,
     title: "Talk imaéjjel",
-    date: "Coming Soon",
+    date: "2026. november 6.",
     location: "Pápa, Pápai Református Gimnázium",
     description: "Egy lélekemelő este, középpontban Isten és az imádság.",
     image: talkimaej2026,
@@ -42,6 +42,8 @@ const events2026 = [
       "Reggeli útravaló"
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető"],
+    registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd3Rjd_LEtcE5aVNsGlruo1YY8OCHjGu2Urg8yXc3GcU8fpqg/viewform",
+    detailsUrl: "/esemenyek/talk-imaejjel-2026",
   }
 ];
 
