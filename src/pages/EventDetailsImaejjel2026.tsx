@@ -18,7 +18,7 @@ export default function EventDetailsImaejjel2026() {
           <div className="max-w-3xl mx-auto">
             <ScrollReveal>
               <img
-                src={posterAsset.url}
+                src={posterAsset}
                 alt="Talk imaéjjel 2026 plakát"
                 className="w-full rounded-2xl shadow-lg"
               />
