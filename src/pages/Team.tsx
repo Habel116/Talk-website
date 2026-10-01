@@ -26,18 +26,20 @@ import julcsi from "@/assets/team/GecseiJulcsi.jpg";
 import barnus from "@/assets/team/HajduBarnus.jpg";
 import zoti from "@/assets/team/VasZotmund.jpg";
 import kristof from "@/assets/team/VargaKristof.jpeg";
+import dominika from "@/assets/team/DobosDominika.jpeg";
+
 const teamMembers = [
-  {
-    name: "Bognár Barnabás",
-    role: "",
-    image: barni,
-    bio: "Bognár Barnabás vagyok. Családommal a Csetényi Református Gyülekezetbe járunk. Fontosnak tartom, hogy a mai fiatalok hiteles forrásokból ismerjék meg Istent, és mielőbb Krisztus követőivé váljanak. A konferencián az imaszolgálatban és a filmklubban találkozhattok velem, de részt vettem a konferencia előkészítésében is (szervezői kitűzők legyártása, egyházmegye térkép installálása).",
-  },
   {
     name: "Bognár Lilla",
     role: "",
     image: lilla,
     bio: "Bognár Lilla vagyok, a csetényi gyüli és ifi közösség lelkes tagja. A talkos eseményeken az Oázis Worship énekeseként találkozhattok velem. Fő motivációm, hogy minél több fiatal megtapasztalhassa, milyen Isten végtelen kegyelmében és szeretetében élni.",
+  },
+  {
+    name: "Dobos Dominika",
+    role: "",
+    image: dominika,
+    bio: "Dobos Dominika vagyok, tanár szakos hallgató, valamint a csetényi gyülekezet tagja, ahol a gyerekeknek tartok istentiszteletet. Hatalmas öröm számomra, hogy csatlakozhattam a TALK csapatához. A legnagyobb vágyam az, hogy megmutassam az embereknek Isten gyógyító erejét, és hogy a gyerekeket is közelebb vigyem ahhoz, hogy megismerjék Jézus Krisztust.",
   },
   {
     name: "Fekete Gyöngyi",
