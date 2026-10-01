@@ -190,7 +190,7 @@ function EventCard({ event, isPast = false }: EventCardProps) {
           </div>
 
           <div className="mb-6 space-y-3">
-            {isPast || event.detailsUrl ? (
+            {isPast ? (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés lezárult
               </Button>
