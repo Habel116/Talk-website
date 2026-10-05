@@ -3,7 +3,6 @@ import { SEO } from "@/components/shared/SEO";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 
-import barni from "@/assets/team/BognarBarnabas-scaled.jpg";
 import lilla from "@/assets/team/BognarLilla.jpg";
 import gyongyi from "@/assets/team/FeketeGyongyi.jpg";
 import abel from "@/assets/team/HajduAbel.jpeg";
@@ -27,6 +26,7 @@ import barnus from "@/assets/team/HajduBarnus.jpg";
 import zoti from "@/assets/team/VasZotmund.jpg";
 import kristof from "@/assets/team/VargaKristof.jpeg";
 import dominika from "@/assets/team/DobosDominika.jpeg";
+import lorina from "@/assets/team/VasLorina.jpeg";
 
 const teamMembers = [
   {
@@ -154,6 +154,12 @@ const teamMembers = [
     role: "",
     image: kristof,
     bio: "Varga Kristóf vagyok, informatikus egyetemi hallgató, a csetényi gyülekezet lelkes és aktív tagja, valamint újonc TALK szervező. Azért jelentkeztem a csapatba, mert szeretnék részt venni abban a nemes küldetésben, hogy minél több fiatalt közelebb vigyünk az élő Istenhez. Hiszem, hogy életünkkel lámpásként világíthatunk a sötétben, és Isten dicsőségét tükrözhetjük mások felé. A TALK alkalmain garantált a sok lámpás, és legfőképp a lelki feltöltődés.",
+  },
+  {
+    name: "Vas Lorina",
+    role: "",
+    image: lorina,
+    bio: "Vas Lorina vagyok, ősidők óta tagja a csetényi református ifinek és az Oázis worshipnek. Jelenleg Szegeden töltöm egyetemista éveimet. Szívem csücske a dicsőítés, és szeretném, hogy a megváltás üzenetét és Krisztus fényét hordozhassam a zenében és az életemben. Hálás vagyok az Úrnak a Talk-szolgálatért és a csapatért. Reményem és vágyam, hogy minél több ember tapasztalja meg a szolgálatunkon keresztül Isten hatalmas és örök szerelmét.",
   },
   {
     name: "Vas Zalán Kende",
