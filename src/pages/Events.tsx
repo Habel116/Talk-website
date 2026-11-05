@@ -11,22 +11,6 @@ import talkkonf2026 from "@/assets/talk-konf-2026.JPG";
 import talkimaej2026 from "@/assets/talk-imaej-2026.JPG";
 const events2026 = [
   {
-    id: 1,
-    title: "Találkozások Konferencia",
-    date: "2026. március 21.",
-    location: "Pápa, Pápai Református Gimnázium",
-    description: "A nap célja, hogy inspiráljuk a résztvevőket Jézus elkötelezett követésében.",
-    image: talkkonf2026,
-    program: [
-      "Nyitó dicsőités és köszöntés",
-      "Főelőadás és kiscsoportos beszélgetések",
-      "Választható workshopok és Talk Caffé",
-      "Záró dicsőítés",
-    ],
-    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Szabóné László Lilla - KRE HTK tanára"],
-    detailsUrl: "/esemenyek/talalkazasok-2026",
-  },
-  {
     id: 2,
     title: "Talk imaéjjel",
     date: "2026. november 6.",
@@ -44,6 +28,22 @@ const events2026 = [
     speakers: ["Hajdú Ferenc - dicsőítés vezető"],
     registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd3Rjd_LEtcE5aVNsGlruo1YY8OCHjGu2Urg8yXc3GcU8fpqg/viewform",
     detailsUrl: "/esemenyek/talk-imaejjel-2026",
+  },
+  {
+    id: 1,
+    title: "Találkozások Konferencia",
+    date: "2026. március 21.",
+    location: "Pápa, Pápai Református Gimnázium",
+    description: "A nap célja, hogy inspiráljuk a résztvevőket Jézus elkötelezett követésében.",
+    image: talkkonf2026,
+    program: [
+      "Nyitó dicsőités és köszöntés",
+      "Főelőadás és kiscsoportos beszélgetések",
+      "Választható workshopok és Talk Caffé",
+      "Záró dicsőítés",
+    ],
+    speakers: ["Hajdú Ferenc - dicsőítés vezető", "Szabóné László Lilla - KRE HTK tanára"],
+    detailsUrl: "/esemenyek/talalkazasok-2026",
   }
 ];
 
