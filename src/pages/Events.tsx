@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SEO } from "@/components/shared/SEO";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { Calendar, MapPin, Users, Clock, Quote, ExternalLink, Info } from "lucide-react";
+import { Calendar, MapPin, Users, Clock, Quote, Info } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import talkkonf2025 from "@/assets/talk-konf-2025.jpg";
@@ -26,7 +26,7 @@ const events2026 = [
       "Reggeli útravaló"
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető"],
-    registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd3Rjd_LEtcE5aVNsGlruo1YY8OCHjGu2Urg8yXc3GcU8fpqg/viewform",
+    registrationClosed: true,
     detailsUrl: "/esemenyek/talk-imaejjel-2026",
   },
   {
@@ -113,7 +113,7 @@ interface Event {
   image: string;
   program: string[];
   speakers: string[];
-  registrationUrl?: string;
+  registrationClosed?: boolean;
   detailsUrl?: string;
   testimonials?: { quote: string; author: string }[];
 }
@@ -190,17 +190,10 @@ function EventCard({ event, isPast = false }: EventCardProps) {
           </div>
 
           <div className="mb-6 space-y-3">
-            {isPast ? (
+            {isPast || event.registrationClosed ? (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés lezárult
               </Button>
-            ) : event.registrationUrl ? (
-              <a href={event.registrationUrl} target="_blank" rel="noopener noreferrer">
-                <Button variant="default" size="lg" className="w-full">
-                  <ExternalLink className="w-4 h-4" />
-                  Jelentkezés
-                </Button>
-              </a>
             ) : (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés hamarosan
