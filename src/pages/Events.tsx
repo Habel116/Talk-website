@@ -190,17 +190,10 @@ function EventCard({ event, isPast = false }: EventCardProps) {
           </div>
 
           <div className="mb-6 space-y-3">
-            {isPast ? (
+            {isPast || event.registrationClosed ? (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés lezárult
               </Button>
-            ) : event.registrationUrl ? (
-              <a href={event.registrationUrl} target="_blank" rel="noopener noreferrer">
-                <Button variant="default" size="lg" className="w-full">
-                  <ExternalLink className="w-4 h-4" />
-                  Jelentkezés
-                </Button>
-              </a>
             ) : (
               <Button variant="outline" size="lg" className="w-full opacity-60 cursor-not-allowed" disabled>
                 Jelentkezés hamarosan
