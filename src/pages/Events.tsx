@@ -26,7 +26,7 @@ const events2026 = [
       "Reggeli útravaló"
     ],
     speakers: ["Hajdú Ferenc - dicsőítés vezető"],
-    registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd3Rjd_LEtcE5aVNsGlruo1YY8OCHjGu2Urg8yXc3GcU8fpqg/viewform",
+    registrationClosed: true,
     detailsUrl: "/esemenyek/talk-imaejjel-2026",
   },
   {
@@ -113,7 +113,7 @@ interface Event {
   image: string;
   program: string[];
   speakers: string[];
-  registrationUrl?: string;
+  registrationClosed?: boolean;
   detailsUrl?: string;
   testimonials?: { quote: string; author: string }[];
 }
