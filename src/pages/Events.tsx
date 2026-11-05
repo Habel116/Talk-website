@@ -11,8 +11,8 @@ import talkkonf2026 from "@/assets/talk-konf-2026.JPG";
 import talkimaej2026 from "@/assets/talk-imaej-2026.JPG";
 const events2026 = [
   {
-    id: 1,
-    title: "Találkozások Konferencia",
+    id: 2,
+    title: "Talk imaéjjel",
     date: "2026. március 21.",
     location: "Pápa, Pápai Református Gimnázium",
     description: "A nap célja, hogy inspiráljuk a résztvevőket Jézus elkötelezett követésében.",
