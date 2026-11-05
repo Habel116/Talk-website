@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SEO } from "@/components/shared/SEO";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { Calendar, MapPin, Users, Clock, Quote, ExternalLink, Info } from "lucide-react";
+import { Calendar, MapPin, Users, Clock, Quote, Info } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import talkkonf2025 from "@/assets/talk-konf-2025.jpg";
